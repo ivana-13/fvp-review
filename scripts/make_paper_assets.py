@@ -1226,7 +1226,7 @@ def main() -> None:
                  "\\thead{foil\\\\passed} & \\thead{$P(\\mathrm{loc}$\\\\$\\mid\\mathrm{pass})$} & (\\pc) \\\\")
         + grouped(rows_b) + FOOTER, encoding="utf-8")
 
-    # ---------------- Human ceiling on the role prompts: one annotator, 200 targets of 100 items, blind to the gold ----------------
+    # ---------------- Human ceiling on the role prompts: two annotators (an author; a colleague who is not), 200 targets of 100 items, blind to the gold ----------------
     ann_p, tgt_p = ROOT / "annotation" / "human_ceiling_annotations.json", ROOT / "annotation" / "human_ceiling_targets.json"
     rows = []
     human_row = ""
@@ -1281,13 +1281,61 @@ def main() -> None:
         hum = hc_rates(lambda k: ("box", ann[k]["box"]))
         for name, v in zip(("humanIoU", "humanCentre", "humanDiscr", "humanSwap", "humanBothIoU", "humanBothCentre"), hum):
             numbers[name] = v
+        # second annotator, not an author, same tool and targets; a "cannot tell" or unannotated target counts as a miss,
+        # as a model's missing box does, so every row of the table has the same denominator
+        ann2_p = ROOT / "annotation" / "human_ceiling_annotations_annotator2.json"
+        hum2 = None
+        if ann2_p.exists():
+            raw2 = json.loads(ann2_p.read_text(encoding="utf-8"))
+            ann2 = {k: v for k, v in raw2.get("annotations", raw2).items() if k in targets}
+            hum2 = hc_rates(lambda k: ("box", ann2[k]["box"]) if ann2.get(k, {}).get("box") else None)
+            for name, v in zip(("humanTwoIoU", "humanTwoCentre", "humanTwoDiscr", "humanTwoSwap", "humanTwoBothIoU", "humanTwoBothCentre"), hum2):
+                numbers[name] = v
+            boxed2 = [k for k in keys if ann2.get(k, {}).get("box")]
+            numbers["humanTwoBoxed"] = len(boxed2)
+            numbers["humanTwoCannot"] = sum(1 for k in keys if k in ann2 and not ann2[k].get("box"))
+            numbers["humanTwoMissing"] = sum(1 for k in keys if k not in ann2)
+            numbers["humanTwoIoUBoxed"] = pct(sum(iou(ann2[k]["box"], targets[k]["gold"]) >= HIT for k in boxed2), len(boxed2))
+            numbers["humanTwoCentreBoxed"] = pct(sum(point_in_box(box_center(ann2[k]["box"]), targets[k]["gold"]) for k in boxed2), len(boxed2))
+            for role in ("agent", "other"):
+                ks = [k for k in boxed2 if (targets[k]["role"] == "agent") == (role == "agent")]
+                numbers[f"humanTwo{role.capitalize()}IoU"] = pct(sum(iou(ann2[k]["box"], targets[k]["gold"]) >= HIT for k in ks), len(ks))
+            # agreement between the two annotators on the targets both boxed
+            h1 = [iou(ann[k]["box"], targets[k]["gold"]) >= HIT for k in boxed2]
+            h2 = [iou(ann2[k]["box"], targets[k]["gold"]) >= HIT for k in boxed2]
+            c1 = [point_in_box(box_center(ann[k]["box"]), targets[k]["gold"]) for k in boxed2]
+            c2 = [point_in_box(box_center(ann2[k]["box"]), targets[k]["gold"]) for k in boxed2]
+
+            def _kappa(a, b):
+                n = len(a)
+                po = sum(x == y for x, y in zip(a, b)) / n
+                pe = (sum(a) / n) * (sum(b) / n) + (1 - sum(a) / n) * (1 - sum(b) / n)
+                return (po - pe) / (1 - pe) if pe < 1 else 1.0
+
+            numbers["humanAgreeN"] = len(boxed2)
+            numbers["humanAgreeBox"] = pct(sum(iou(ann[k]["box"], ann2[k]["box"]) >= HIT for k in boxed2), len(boxed2))
+            numbers["humanMeanIoU"] = f"{sum(iou(ann[k]['box'], ann2[k]['box']) for k in boxed2) / len(boxed2):.2f}"
+            numbers["humanAgreeHit"] = pct(sum(x == y for x, y in zip(h1, h2)), len(boxed2))
+            numbers["humanKappaHit"] = f"{_kappa(h1, h2):.2f}"
+            numbers["humanAgreeCentre"] = pct(sum(x == y for x, y in zip(c1, c2)), len(boxed2))
+            numbers["humanKappaCentre"] = f"{_kappa(c1, c2):.2f}"
+            # the same participant: both centres inside the same gold box (own or other)
+            same = 0
+            for k in boxed2:
+                g, o = targets[k]["gold"], other_gold(k)
+                p1, p2 = box_center(ann[k]["box"]), box_center(ann2[k]["box"])
+                same += (point_in_box(p1, g) and point_in_box(p2, g)) or (point_in_box(p1, o) and point_in_box(p2, o) and not point_in_box(p1, g) and not point_in_box(p2, g))
+            numbers["humanSameParticipant"] = pct(same, len(boxed2))
         numbers["humanN"], numbers["humanItems"] = len(keys), len(items_hc)
         numbers["humanCannot"] = sum(1 for k in targets if k in ann and not ann[k].get("box"))
         numbers["humanMissing"] = sum(1 for k in targets if k not in ann)
         for role in ("agent", "other"):
             ks = [k for k in keys if (targets[k]["role"] == "agent") == (role == "agent")]
             numbers[f"human{role.capitalize()}IoU"] = pct(sum(iou(ann[k]["box"], targets[k]["gold"]) >= HIT for k in ks), len(ks))
-        human_row = "Human (one annotator) & " + " & ".join(hum) + " \\\\\n\\midrule\n"
+        human_row = "Human, author & " + " & ".join(hum) + " \\\\\n"
+        if hum2 is not None:
+            human_row += "Human, not an author & " + " & ".join(hum2) + " \\\\\n"
+        human_row += "\\midrule\n"
         for key, name in POINTING_MODELS:
             P: dict[str, tuple | None] = {}
             for r in runs.get((key, "actant-swap"), []):
