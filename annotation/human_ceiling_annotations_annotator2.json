@@ -1,0 +1,2092 @@
+{
+ "items": 200,
+ "annotations": {
+  "actions_test_192::driver": {
+   "box": [
+    92,
+    83,
+    535,
+    360
+   ],
+   "image": "fording_250.jpg",
+   "phrase": "the one who is fording (the agent)",
+   "t": 1791553506757
+  },
+  "actions_test_1010::motorcycle": {
+   "box": [
+    15,
+    131,
+    561,
+    426
+   ],
+   "image": "driving_15.jpg",
+   "phrase": "the entity that is being drived, e.g.) car",
+   "t": 1791553536931
+  },
+  "actions_test_411::scuba diver": {
+   "box": [
+    132,
+    22,
+    445,
+    511
+   ],
+   "image": "spearing_139.jpg",
+   "phrase": "the one who is spearing (the agent)",
+   "t": 1791553562135
+  },
+  "actions_test_513::person": {
+   "box": [
+    289,
+    251,
+    511,
+    510
+   ],
+   "image": "pressing_289.jpg",
+   "phrase": "the one who is pressing (the agent)",
+   "t": 1791553581451
+  },
+  "actions_test_426::woman": {
+   "box": [
+    315,
+    84,
+    510,
+    388
+   ],
+   "image": "detaining_24.jpg",
+   "phrase": "the one being detained",
+   "t": 1791553601943
+  },
+  "actions_test_718::jump rope": {
+   "box": [
+    248,
+    138,
+    709,
+    458
+   ],
+   "image": "skipping_178.jpg",
+   "phrase": "the entity being skipped over",
+   "t": 1791553918806
+  },
+  "actions_test_944::man": {
+   "box": [
+    394,
+    22,
+    551,
+    465
+   ],
+   "image": "apprehending_195.jpg",
+   "phrase": "the entity being apprehended",
+   "t": 1791553940669
+  },
+  "actions_test_385::man": {
+   "box": [
+    249,
+    66,
+    566,
+    467
+   ],
+   "image": "spearing_167.jpg",
+   "phrase": "the one who is spearing (the agent)",
+   "t": 1791553948833
+  },
+  "actions_test_241::people": {
+   "box": [
+    136,
+    105,
+    405,
+    411
+   ],
+   "image": "rowing_37.jpg",
+   "phrase": "the one who is rowing (the agent)",
+   "t": 1791553964378
+  },
+  "actions_test_762::bucket": {
+   "box": [
+    153,
+    158,
+    266,
+    279
+   ],
+   "image": "sowing_137.jpg",
+   "phrase": "any tool helping the AGENT sow",
+   "t": 1791553975803
+  },
+  "actions_test_461::tractor": {
+   "box": [
+    141,
+    97,
+    350,
+    181
+   ],
+   "image": "tilling_172.jpg",
+   "phrase": "the entity helping the agent do the Till action",
+   "t": 1791553990907
+  },
+  "actions_test_665::man": {
+   "box": [
+    141,
+    3,
+    438,
+    491
+   ],
+   "image": "tripping_61.jpg",
+   "phrase": "the one who is tripping (the agent)",
+   "t": 1791554006776
+  },
+  "actions_test_551::cow": {
+   "box": [
+    359,
+    213,
+    700,
+    456
+   ],
+   "image": "plowing_157.jpg",
+   "phrase": "the object being used to do the plowing",
+   "t": 1791554023822
+  },
+  "actions_test_964::window": {
+   "box": [
+    -1,
+    0,
+    765,
+    510
+   ],
+   "image": "smashing_239.jpg",
+   "phrase": "the thing that is getting smashed",
+   "t": 1791554041566
+  },
+  "actions_test_951::man": {
+   "box": [
+    91,
+    24,
+    374,
+    487
+   ],
+   "image": "burning_222.jpg",
+   "phrase": "the one who is burning (the agent)",
+   "t": 1791554050278
+  },
+  "actions_test_192::sport utility": {
+   "box": [
+    118,
+    95,
+    521,
+    366
+   ],
+   "image": "fording_250.jpg",
+   "phrase": "the tool the agent uses to ford",
+   "t": 1791554069266
+  },
+  "actions_test_291::woman": {
+   "box": [
+    31,
+    163,
+    1045,
+    499
+   ],
+   "image": "floating_74.jpg",
+   "phrase": "the one who is floating (the agent)",
+   "t": 1791554096402
+  },
+  "actions_test_230::man": {
+   "box": [
+    54,
+    18,
+    453,
+    767
+   ],
+   "image": "offering_207.jpg",
+   "phrase": "the one who is offering (the agent)",
+   "t": 1791554130568
+  },
+  "actions_test_535::woman": {
+   "box": [
+    31,
+    76,
+    248,
+    510
+   ],
+   "image": "coaching_215.jpg",
+   "phrase": "the ones being coached",
+   "t": 1791554140968
+  },
+  "actions_test_130::bicycle": {
+   "box": [
+    118,
+    92,
+    469,
+    756
+   ],
+   "image": "pedaling_46.jpg",
+   "phrase": "the entity being pedaled",
+   "t": 1791554151384
+  },
+  "actions_test_10::teacher": {
+   "box": [
+    248,
+    1,
+    725,
+    507
+   ],
+   "image": "teaching_68.jpg",
+   "phrase": "the entity doing the teach action",
+   "t": 1791554160957
+  },
+  "actions_test_252::person": {
+   "box": [
+    2,
+    160,
+    623,
+    511
+   ],
+   "image": "aiming_80.jpg",
+   "phrase": "the one who is aiming (the agent)",
+   "t": 1791554170842
+  },
+  "actions_test_1032::baby": {
+   "box": [
+    202,
+    99,
+    497,
+    752
+   ],
+   "image": "gnawing_359.jpg",
+   "phrase": "the one who is gnawing (the agent)",
+   "t": 1791554176340
+  },
+  "actions_test_489::food": {
+   "box": [
+    128,
+    317,
+    692,
+    464
+   ],
+   "image": "selling_144.jpg",
+   "phrase": "the thing being sold",
+   "t": 1791554193398
+  },
+  "actions_test_23::athlete": {
+   "box": [
+    105,
+    80,
+    426,
+    439
+   ],
+   "image": "punting_124.jpg",
+   "phrase": "the one who is punting (the agent)",
+   "t": 1791554199118
+  },
+  "actions_test_1037::trailer truck": {
+   "box": [
+    0,
+    53,
+    416,
+    505
+   ],
+   "image": "driving_253.jpg",
+   "phrase": "the entity that is being drived, e.g.) car",
+   "t": 1791554204364
+  },
+  "actions_test_238::flower": {
+   "box": [
+    374,
+    117,
+    634,
+    351
+   ],
+   "image": "clinging_185.jpg",
+   "phrase": "the entity the AGENT is clinging to",
+   "t": 1791554212308
+  },
+  "actions_test_266::mother": {
+   "box": [
+    211,
+    90,
+    492,
+    371
+   ],
+   "image": "nuzzling_4.jpg",
+   "phrase": "the one who is nuzzling (the agent)",
+   "t": 1791554222874
+  },
+  "actions_test_913::leopard": {
+   "box": [
+    54,
+    68,
+    637,
+    365
+   ],
+   "image": "pouncing_170.jpg",
+   "phrase": "the one who is pouncing (the agent)",
+   "t": 1791554229217
+  },
+  "actions_test_280::man": {
+   "box": [
+    123,
+    92,
+    508,
+    645
+   ],
+   "image": "kicking_339.jpg",
+   "phrase": "the one who is kicking (the agent)",
+   "t": 1791554238726
+  },
+  "actions_test_371::man": {
+   "box": [
+    51,
+    5,
+    779,
+    412
+   ],
+   "image": "reassuring_32.jpg",
+   "phrase": "the one who is reassuring (the agent)",
+   "t": 1791554264358
+  },
+  "actions_test_10::student": {
+   "box": [
+    3,
+    3,
+    358,
+    494
+   ],
+   "image": "teaching_68.jpg",
+   "phrase": "the entity being taught",
+   "t": 1791554271626
+  },
+  "actions_test_1038::turkey": {
+   "box": [
+    70,
+    92,
+    671,
+    469
+   ],
+   "image": "cooking_66.jpg",
+   "phrase": "the thing being created",
+   "t": 1791554278960
+  },
+  "actions_test_898::pizza": {
+   "box": [
+    152,
+    436,
+    508,
+    763
+   ],
+   "image": "eating_336.jpg",
+   "phrase": "the thing being consumed",
+   "t": 1791554289022
+  },
+  "actions_test_23::soccer ball": {
+   "box": [
+    217,
+    208,
+    272,
+    262
+   ],
+   "image": "punting_124.jpg",
+   "phrase": "the thing being punted",
+   "t": 1791554299234
+  },
+  "actions_test_27::person": {
+   "box": [
+    101,
+    225,
+    623,
+    383
+   ],
+   "image": "boating_55.jpg",
+   "phrase": "the group of entities doing the boating",
+   "t": 1791554305262
+  },
+  "actions_test_241::canoe": {
+   "box": [
+    121,
+    306,
+    388,
+    476
+   ],
+   "image": "rowing_37.jpg",
+   "phrase": "the entity being rowed (i.e. a boat)",
+   "t": 1791554319404
+  },
+  "actions_test_718::people": {
+   "box": null,
+   "image": "skipping_178.jpg",
+   "phrase": "the one who is skipping (the agent)",
+   "t": 1791554342480
+  },
+  "actions_test_312::woman": {
+   "box": [
+    279,
+    135,
+    404,
+    350
+   ],
+   "image": "training_104.jpg",
+   "phrase": "the one who is training (the agent)",
+   "t": 1791554353228
+  },
+  "actions_test_551::man": {
+   "box": [
+    248,
+    152,
+    365,
+    437
+   ],
+   "image": "plowing_157.jpg",
+   "phrase": "the one who is plowing (the agent)",
+   "t": 1791554363834
+  },
+  "actions_test_245::wire": {
+   "box": [
+    459,
+    203,
+    550,
+    309
+   ],
+   "image": "unplugging_6.jpg",
+   "phrase": "the object being unplugged",
+   "t": 1791554375496
+  },
+  "actions_test_254::farmer": {
+   "box": [
+    165,
+    128,
+    337,
+    465
+   ],
+   "image": "tilling_110.jpg",
+   "phrase": "the one who is tilling (the agent)",
+   "t": 1791554381614
+  },
+  "actions_test_1002::woman": {
+   "box": [
+    58,
+    5,
+    818,
+    502
+   ],
+   "image": "driving_85.jpg",
+   "phrase": "the one who is driving (the agent)",
+   "t": 1791554395740
+  },
+  "actions_test_989::policeman": {
+   "box": [
+    297,
+    261,
+    487,
+    761
+   ],
+   "image": "subduing_201.jpg",
+   "phrase": "the one who is subduing (the agent)",
+   "t": 1791554413692
+  },
+  "actions_test_871::woman": {
+   "box": [
+    48,
+    28,
+    673,
+    505
+   ],
+   "image": "shopping_215.jpg",
+   "phrase": "the one who is shopping (the agent)",
+   "t": 1791554421782
+  },
+  "actions_test_779::baby": {
+   "box": [
+    97,
+    240,
+    467,
+    442
+   ],
+   "image": "baptizing_201.jpg",
+   "phrase": "the person(s) being baptized",
+   "t": 1791554435904
+  },
+  "actions_test_33::boat": {
+   "box": [
+    63,
+    112,
+    588,
+    501
+   ],
+   "image": "rowing_259.jpg",
+   "phrase": "the entity being rowed (i.e. a boat)",
+   "t": 1791554443228
+  },
+  "actions_test_810::woman": {
+   "box": [
+    329,
+    114,
+    675,
+    383
+   ],
+   "image": "milking_226.jpg",
+   "phrase": "the one who is milking (the agent)",
+   "t": 1791554456826
+  },
+  "actions_test_318::people": {
+   "box": [
+    3,
+    370,
+    430,
+    558
+   ],
+   "image": "preaching_126.jpg",
+   "phrase": "the entity who is getting preached to",
+   "t": 1791554471764
+  },
+  "actions_test_611::ship": {
+   "box": null,
+   "image": "boarding_52.jpg",
+   "phrase": "the vehicle which the agent boards",
+   "t": 1791554477756
+  },
+  "actions_test_663::dog": {
+   "box": [
+    88,
+    257,
+    662,
+    498
+   ],
+   "image": "biting_394.jpg",
+   "phrase": "the one who is biting (the agent)",
+   "t": 1791554488198
+  },
+  "actions_test_863::label": {
+   "box": [
+    463,
+    181,
+    725,
+    440
+   ],
+   "image": "reading_67.jpg",
+   "phrase": "the thing being read",
+   "t": 1791554496846
+  },
+  "actions_test_864::water": {
+   "box": [
+    199,
+    26,
+    743,
+    338
+   ],
+   "image": "floating_181.jpg",
+   "phrase": "the entity in which the float action is taking place",
+   "t": 1791554512078
+  },
+  "actions_test_1022::soldier": {
+   "box": [
+    346,
+    148,
+    678,
+    455
+   ],
+   "image": "subduing_22.jpg",
+   "phrase": "the one who is subduing (the agent)",
+   "t": 1791554523372
+  },
+  "actions_test_461::farmer": {
+   "box": [
+    232,
+    12,
+    298,
+    90
+   ],
+   "image": "tilling_172.jpg",
+   "phrase": "the one who is tilling (the agent)",
+   "t": 1791554528628
+  },
+  "actions_test_436::woman": {
+   "box": [
+    271,
+    138,
+    438,
+    466
+   ],
+   "image": "commuting_44.jpg",
+   "phrase": "the entity doing the commute action",
+   "t": 1791554539640
+  },
+  "actions_test_484::man": {
+   "box": [
+    190,
+    16,
+    776,
+    508
+   ],
+   "image": "instructing_216.jpg",
+   "phrase": "the one who is instructing (the agent)",
+   "t": 1791554552644
+  },
+  "actions_test_33::people": {
+   "box": [
+    89,
+    25,
+    572,
+    419
+   ],
+   "image": "rowing_259.jpg",
+   "phrase": "the one who is rowing (the agent)",
+   "t": 1791554558158
+  },
+  "actions_test_38::woman": {
+   "box": [
+    23,
+    3,
+    508,
+    502
+   ],
+   "image": "disciplining_110.jpg",
+   "phrase": "the one who is disciplining (the agent)",
+   "t": 1791554571058
+  },
+  "actions_test_31::guest": {
+   "box": [
+    5,
+    113,
+    784,
+    415
+   ],
+   "image": "applauding_36.jpg",
+   "phrase": "the one who is applauding (the agent)",
+   "t": 1791554595858
+  },
+  "actions_test_944::traffic cop": {
+   "box": [
+    290,
+    23,
+    463,
+    460
+   ],
+   "image": "apprehending_195.jpg",
+   "phrase": "the one who is apprehending (the agent)",
+   "t": 1791554608302
+  },
+  "actions_test_743::cellular telephone": {
+   "box": [
+    53,
+    148,
+    609,
+    507
+   ],
+   "image": "aiming_133.jpg",
+   "phrase": "the thing being aimed",
+   "t": 1791554632440
+  },
+  "actions_test_907::man": {
+   "box": [
+    7,
+    129,
+    585,
+    511
+   ],
+   "image": "spitting_176.jpg",
+   "phrase": "the one who is spitting (the agent)",
+   "t": 1791554640686
+  },
+  "actions_test_114::puppy": {
+   "box": [
+    149,
+    241,
+    467,
+    630
+   ],
+   "image": "tugging_18.jpg",
+   "phrase": "the one who is tugging (the agent)",
+   "t": 1791554648046
+  },
+  "actions_test_351::football": {
+   "box": [
+    181,
+    483,
+    254,
+    533
+   ],
+   "image": "kicking_269.jpg",
+   "phrase": "the thing being kicked",
+   "t": 1791554654622
+  },
+  "actions_test_27::motorboat": {
+   "box": [
+    105,
+    223,
+    611,
+    379
+   ],
+   "image": "boating_55.jpg",
+   "phrase": "the type of boat",
+   "t": 1791554658960
+  },
+  "actions_test_498::passenger": {
+   "box": [
+    80,
+    318,
+    605,
+    507
+   ],
+   "image": "disembarking_122.jpg",
+   "phrase": "the one who is disembarking (the agent)",
+   "t": 1791554687512
+  },
+  "actions_test_667::woman": {
+   "box": null,
+   "image": "buttoning_83.jpg",
+   "phrase": "the one who is buttoning (the agent)",
+   "t": 1791554698237
+  },
+  "actions_test_513::computer": {
+   "box": [
+    114,
+    125,
+    479,
+    362
+   ],
+   "image": "pressing_289.jpg",
+   "phrase": "the thing the agent is pressing",
+   "t": 1791554705196
+  },
+  "actions_test_617::police": {
+   "box": [
+    1,
+    54,
+    488,
+    484
+   ],
+   "image": "arresting_110.jpg",
+   "phrase": "the one who is arresting (the agent)",
+   "t": 1791554728010
+  },
+  "actions_test_964::man": {
+   "box": [
+    47,
+    71,
+    627,
+    508
+   ],
+   "image": "smashing_239.jpg",
+   "phrase": "the one who is smashing (the agent)",
+   "t": 1791554741012
+  },
+  "actions_test_863::female": {
+   "box": [
+    60,
+    1,
+    563,
+    508
+   ],
+   "image": "reading_67.jpg",
+   "phrase": "the one who is reading (the agent)",
+   "t": 1791554749086
+  },
+  "actions_test_741::ballplayer": {
+   "box": [
+    237,
+    85,
+    680,
+    391
+   ],
+   "image": "stumbling_39.jpg",
+   "phrase": "the one who is stumbling (the agent)",
+   "t": 1791554783324
+  },
+  "actions_test_898::male child": {
+   "box": [
+    1,
+    4,
+    449,
+    482
+   ],
+   "image": "eating_336.jpg",
+   "phrase": "the one who is eating (the agent)",
+   "t": 1791554788842
+  },
+  "actions_test_844::man": {
+   "box": [
+    378,
+    48,
+    721,
+    511
+   ],
+   "image": "nagging_145.jpg",
+   "phrase": "the person being nagged by the agent",
+   "t": 1791554805633
+  },
+  "actions_test_498::airplane": {
+   "box": [
+    11,
+    148,
+    609,
+    360
+   ],
+   "image": "disembarking_122.jpg",
+   "phrase": "the vehicle from which the agent is disembarking",
+   "t": 1791554821915
+  },
+  "actions_test_741::ball field": {
+   "box": null,
+   "image": "stumbling_39.jpg",
+   "phrase": "where the agent ends up",
+   "t": 1791554838169
+  },
+  "actions_test_424::woman": {
+   "box": [
+    512,
+    32,
+    757,
+    498
+   ],
+   "image": "calming_175.jpg",
+   "phrase": "the one who is calming (the agent)",
+   "t": 1791554853228
+  },
+  "actions_test_411::fish": {
+   "box": null,
+   "image": "spearing_139.jpg",
+   "phrase": "the thing that was speared",
+   "t": 1791554871688
+  },
+  "actions_test_439::tent": {
+   "box": [
+    197,
+    224,
+    663,
+    475
+   ],
+   "image": "camping_56.jpg",
+   "phrase": "the item providing shelter",
+   "t": 1791554882336
+  },
+  "actions_test_280::sandbag": {
+   "box": [
+    50,
+    344,
+    175,
+    476
+   ],
+   "image": "kicking_339.jpg",
+   "phrase": "the thing being kicked",
+   "t": 1791554891702
+  },
+  "actions_test_557::bicycle": {
+   "box": [
+    211,
+    236,
+    451,
+    659
+   ],
+   "image": "commuting_210.jpg",
+   "phrase": "the vehicle in which the traveler is commuting",
+   "t": 1791554897416
+  },
+  "actions_test_743::man": {
+   "box": [
+    49,
+    121,
+    591,
+    506
+   ],
+   "image": "aiming_133.jpg",
+   "phrase": "the one who is aiming (the agent)",
+   "t": 1791554910110
+  },
+  "actions_test_791::food": {
+   "box": [
+    2,
+    330,
+    764,
+    505
+   ],
+   "image": "selling_60.jpg",
+   "phrase": "the thing being sold",
+   "t": 1791554922005
+  },
+  "actions_test_564::colleague": {
+   "box": [
+    72,
+    177,
+    688,
+    457
+   ],
+   "image": "training_228.jpg",
+   "phrase": "the entity receiving the training",
+   "t": 1791554933644
+  },
+  "actions_test_871::grocery store": {
+   "box": [
+    589,
+    318,
+    682,
+    442
+   ],
+   "image": "shopping_215.jpg",
+   "phrase": "the thing the agent is shopping for",
+   "t": 1791554941114
+  },
+  "actions_test_951::debris": {
+   "box": [
+    274,
+    71,
+    674,
+    483
+   ],
+   "image": "burning_222.jpg",
+   "phrase": "the object being burned",
+   "t": 1791554953108
+  },
+  "actions_test_556::man": {
+   "box": null,
+   "image": "commuting_108.jpg",
+   "phrase": "the entity doing the commute action",
+   "t": 1791554960896
+  },
+  "actions_test_756::dough": {
+   "box": [
+    202,
+    220,
+    491,
+    448
+   ],
+   "image": "baking_248.jpg",
+   "phrase": "the thing being created",
+   "t": 1791554969802
+  },
+  "actions_test_1038::man": {
+   "box": [
+    70,
+    0,
+    764,
+    435
+   ],
+   "image": "cooking_66.jpg",
+   "phrase": "the one who is cooking (the agent)",
+   "t": 1791554985444
+  },
+  "actions_test_252::gun": {
+   "box": null,
+   "image": "aiming_80.jpg",
+   "phrase": "the thing being aimed",
+   "t": 1791554997998
+  },
+  "actions_test_450::telephone": {
+   "box": [
+    196,
+    182,
+    335,
+    336
+   ],
+   "image": "phoning_220.jpg",
+   "phrase": "the item being used to phone with, usually a phone",
+   "t": 1791555018716
+  },
+  "actions_test_557::man": {
+   "box": [
+    216,
+    15,
+    450,
+    606
+   ],
+   "image": "commuting_210.jpg",
+   "phrase": "the entity doing the commute action",
+   "t": 1791555054466
+  },
+  "actions_test_953::old man": {
+   "box": null,
+   "image": "baking_113.jpg",
+   "phrase": "the one who is baking (the agent)",
+   "t": 1791555066860
+  },
+  "actions_test_823::rifle": {
+   "box": null,
+   "image": "aiming_123.jpg",
+   "phrase": "the thing being aimed",
+   "t": 1791555075604
+  },
+  "actions_test_426::policeman": {
+   "box": [
+    455,
+    92,
+    600,
+    390
+   ],
+   "image": "detaining_24.jpg",
+   "phrase": "the one who is detaining (the agent)",
+   "t": 1791555084300
+  },
+  "actions_test_770::mat": {
+   "box": [
+    50,
+    113,
+    455,
+    468
+   ],
+   "image": "kneeling_101.jpg",
+   "phrase": "the entity the AGENT is kneeling on",
+   "t": 1791555100748
+  },
+  "actions_test_206::dog": {
+   "box": [
+    285,
+    29,
+    523,
+    266
+   ],
+   "image": "nipping_40.jpg",
+   "phrase": "the item receiving the nip action",
+   "t": 1791555110906
+  },
+  "actions_test_843::man": {
+   "box": [
+    144,
+    62,
+    350,
+    301
+   ],
+   "image": "plowing_120.jpg",
+   "phrase": "the one who is plowing (the agent)",
+   "t": 1791555125230
+  },
+  "actions_test_114::knot": {
+   "box": [
+    136,
+    15,
+    318,
+    281
+   ],
+   "image": "tugging_18.jpg",
+   "phrase": "the thing tugged",
+   "t": 1791555135242
+  },
+  "actions_test_105::comedian": {
+   "box": [
+    15,
+    17,
+    483,
+    674
+   ],
+   "image": "clapping_55.jpg",
+   "phrase": "the one who is clapping (the agent)",
+   "t": 1791555142868
+  },
+  "actions_test_502::man": {
+   "box": [
+    2,
+    34,
+    430,
+    434
+   ],
+   "image": "slipping_6.jpg",
+   "phrase": "the one who is slipping (the agent)",
+   "t": 1791555150412
+  },
+  "actions_test_502::floor": {
+   "box": [
+    1,
+    292,
+    333,
+    465
+   ],
+   "image": "slipping_6.jpg",
+   "phrase": "where the AGENT is ending up",
+   "t": 1791555163648
+  },
+  "actions_test_953::bread": {
+   "box": [
+    489,
+    325,
+    740,
+    506
+   ],
+   "image": "baking_113.jpg",
+   "phrase": "the thing being created",
+   "t": 1791555168964
+  },
+  "actions_test_31::speaker": {
+   "box": [
+    444,
+    145,
+    595,
+    437
+   ],
+   "image": "applauding_36.jpg",
+   "phrase": "the target of the applause",
+   "t": 1791555174946
+  },
+  "actions_test_694::man": {
+   "box": [
+    117,
+    107,
+    427,
+    712
+   ],
+   "image": "tugging_258.jpg",
+   "phrase": "the one who is tugging (the agent)",
+   "t": 1791555186466
+  },
+  "actions_test_133::man": {
+   "box": [
+    105,
+    79,
+    374,
+    291
+   ],
+   "image": "sitting_183.jpg",
+   "phrase": "the one who is sitting (the agent)",
+   "t": 1791555195932
+  },
+  "actions_test_604::water": {
+   "box": [
+    43,
+    167,
+    732,
+    434
+   ],
+   "image": "taxiing_77.jpg",
+   "phrase": "the entity that is being taxied on",
+   "t": 1791555216762
+  },
+  "actions_test_1033::woman": {
+   "box": [
+    163,
+    8,
+    463,
+    240
+   ],
+   "image": "stumbling_49.jpg",
+   "phrase": "the one who is stumbling (the agent)",
+   "t": 1791555224984
+  },
+  "actions_test_665::leg": {
+   "box": [
+    316,
+    285,
+    497,
+    482
+   ],
+   "image": "tripping_61.jpg",
+   "phrase": "the thing being tripped over",
+   "t": 1791555246108
+  },
+  "actions_test_543::man": {
+   "box": [
+    297,
+    83,
+    492,
+    510
+   ],
+   "image": "peeing_180.jpg",
+   "phrase": "the one who is peeing (the agent)",
+   "t": 1791555251670
+  },
+  "actions_test_230::hand": {
+   "box": [
+    52,
+    423,
+    313,
+    737
+   ],
+   "image": "offering_207.jpg",
+   "phrase": "the item being offered",
+   "t": 1791555255690
+  },
+  "actions_test_543::wall": {
+   "box": null,
+   "image": "peeing_180.jpg",
+   "phrase": "the entity receiving the pee",
+   "t": 1791555265540
+  },
+  "actions_test_206::puppy": {
+   "box": [
+    362,
+    94,
+    763,
+    364
+   ],
+   "image": "nipping_40.jpg",
+   "phrase": "the one who is nipping (the agent)",
+   "t": 1791555282152
+  },
+  "actions_test_245::person": {
+   "box": [
+    5,
+    194,
+    348,
+    501
+   ],
+   "image": "unplugging_6.jpg",
+   "phrase": "the one who is unplugging (the agent)",
+   "t": 1791555289998
+  },
+  "actions_test_566::young buck": {
+   "box": [
+    311,
+    105,
+    440,
+    340
+   ],
+   "image": "punting_141.jpg",
+   "phrase": "the one who is punting (the agent)",
+   "t": 1791555300458
+  },
+  "actions_test_291::water": {
+   "box": [
+    0,
+    159,
+    1082,
+    509
+   ],
+   "image": "floating_74.jpg",
+   "phrase": "the entity in which the float action is taking place",
+   "t": 1791555322585
+  },
+  "actions_test_636::helicopter": {
+   "box": [
+    170,
+    66,
+    793,
+    433
+   ],
+   "image": "landing_82.jpg",
+   "phrase": "the one who is landing (the agent)",
+   "t": 1791555328490
+  },
+  "actions_test_254::tiller": {
+   "box": [
+    179,
+    263,
+    360,
+    500
+   ],
+   "image": "tilling_110.jpg",
+   "phrase": "the entity helping the agent do the Till action",
+   "t": 1791555335506
+  },
+  "actions_test_71::woman": {
+   "box": [
+    171,
+    55,
+    462,
+    454
+   ],
+   "image": "encouraging_117.jpg",
+   "phrase": "the one who is encouraging (the agent)",
+   "t": 1791555342920
+  },
+  "actions_test_867::rubbish": {
+   "box": [
+    263,
+    210,
+    582,
+    403
+   ],
+   "image": "burning_32.jpg",
+   "phrase": "the object being burned",
+   "t": 1791555349523
+  },
+  "actions_test_238::butterfly": {
+   "box": [
+    365,
+    117,
+    603,
+    357
+   ],
+   "image": "clinging_185.jpg",
+   "phrase": "the one who is clinging (the agent)",
+   "t": 1791555361643
+  },
+  "actions_test_266::baby": {
+   "box": [
+    30,
+    74,
+    488,
+    508
+   ],
+   "image": "nuzzling_4.jpg",
+   "phrase": "the entity being nuzzled by the Agent",
+   "t": 1791555397757
+  },
+  "actions_test_256::tent": {
+   "box": [
+    26,
+    86,
+    906,
+    437
+   ],
+   "image": "camping_268.jpg",
+   "phrase": "the item providing shelter",
+   "t": 1791555434318
+  },
+  "actions_test_867::man": {
+   "box": null,
+   "image": "burning_32.jpg",
+   "phrase": "the one who is burning (the agent)",
+   "t": 1791555449485
+  },
+  "actions_test_667::bridal gown": {
+   "box": null,
+   "image": "buttoning_83.jpg",
+   "phrase": "the thing getting buttoned",
+   "t": 1791555466189
+  },
+  "actions_test_526::helicopter": {
+   "box": [
+    385,
+    63,
+    576,
+    163
+   ],
+   "image": "plummeting_33.jpg",
+   "phrase": "the place where the plummeting event begins",
+   "t": 1791555479055
+  },
+  "actions_test_864::oil tanker": {
+   "box": [
+    208,
+    41,
+    758,
+    329
+   ],
+   "image": "floating_181.jpg",
+   "phrase": "the one who is floating (the agent)",
+   "t": 1791555490809
+  },
+  "actions_test_694::rope": {
+   "box": [
+    111,
+    225,
+    313,
+    446
+   ],
+   "image": "tugging_258.jpg",
+   "phrase": "the thing tugged",
+   "t": 1791555502208
+  },
+  "actions_test_556::bicycle": {
+   "box": [
+    112,
+    78,
+    1700,
+    418
+   ],
+   "image": "commuting_108.jpg",
+   "phrase": "the vehicle in which the traveler is commuting",
+   "t": 1791555520302
+  },
+  "actions_test_844::woman": {
+   "box": [
+    2,
+    7,
+    436,
+    440
+   ],
+   "image": "nagging_145.jpg",
+   "phrase": "the one who is nagging (the agent)",
+   "t": 1791555538501
+  },
+  "actions_test_762::man": {
+   "box": [
+    127,
+    106,
+    242,
+    457
+   ],
+   "image": "sowing_137.jpg",
+   "phrase": "the one who is sowing (the agent)",
+   "t": 1791555544347
+  },
+  "actions_test_779::priest": {
+   "box": [
+    66,
+    52,
+    364,
+    323
+   ],
+   "image": "baptizing_201.jpg",
+   "phrase": "the one who is baptizing (the agent)",
+   "t": 1791555554475
+  },
+  "actions_test_148::rider": {
+   "box": [
+    249,
+    37,
+    586,
+    426
+   ],
+   "image": "pedaling_42.jpg",
+   "phrase": "the one who is pedaling (the agent)",
+   "t": 1791555564461
+  },
+  "actions_test_210::child": {
+   "box": [
+    130,
+    40,
+    508,
+    755
+   ],
+   "image": "reassuring_119.jpg",
+   "phrase": "the one being reassured",
+   "t": 1791555570109
+  },
+  "actions_test_256::person": {
+   "box": [
+    288,
+    172,
+    467,
+    399
+   ],
+   "image": "camping_268.jpg",
+   "phrase": "the one who is camping (the agent)",
+   "t": 1791555577559
+  },
+  "actions_test_825::limestone": {
+   "box": [
+    257,
+    268,
+    594,
+    434
+   ],
+   "image": "chiseling_203.jpg",
+   "phrase": "the entity being chiseled",
+   "t": 1791555583899
+  },
+  "actions_test_463::man": {
+   "box": [
+    20,
+    19,
+    761,
+    171
+   ],
+   "image": "rowing_230.jpg",
+   "phrase": "the one who is rowing (the agent)",
+   "t": 1791555598143
+  },
+  "actions_test_617::woman": {
+   "box": [
+    236,
+    154,
+    484,
+    506
+   ],
+   "image": "arresting_110.jpg",
+   "phrase": "the entity being arrested",
+   "t": 1791555604115
+  },
+  "actions_test_621::son": {
+   "box": [
+    431,
+    71,
+    751,
+    507
+   ],
+   "image": "scolding_54.jpg",
+   "phrase": "the one being scolded",
+   "t": 1791555616249
+  },
+  "actions_test_756::female child": {
+   "box": [
+    0,
+    -1,
+    474,
+    412
+   ],
+   "image": "baking_248.jpg",
+   "phrase": "the one who is baking (the agent)",
+   "t": 1791555627829
+  },
+  "actions_test_327::material": {
+   "box": [
+    4,
+    0,
+    955,
+    493
+   ],
+   "image": "kneading_28.jpg",
+   "phrase": "the object that is being kneaded",
+   "t": 1791555637685
+  },
+  "actions_test_843::tractor": {
+   "box": [
+    30,
+    209,
+    464,
+    585
+   ],
+   "image": "plowing_120.jpg",
+   "phrase": "the object being used to do the plowing",
+   "t": 1791555646401
+  },
+  "actions_test_1022::man": {
+   "box": [
+    373,
+    343,
+    860,
+    439
+   ],
+   "image": "subduing_22.jpg",
+   "phrase": "the entity being subdued",
+   "t": 1791555656615
+  },
+  "actions_test_1002::car": {
+   "box": null,
+   "image": "driving_85.jpg",
+   "phrase": "the entity that is being drived, e.g.) car",
+   "t": 1791555665975
+  },
+  "actions_test_130::female": {
+   "box": [
+    84,
+    74,
+    468,
+    758
+   ],
+   "image": "pedaling_46.jpg",
+   "phrase": "the one who is pedaling (the agent)",
+   "t": 1791555677833
+  },
+  "actions_test_385::fish": {
+   "box": [
+    117,
+    327,
+    235,
+    421
+   ],
+   "image": "spearing_167.jpg",
+   "phrase": "the thing that was speared",
+   "t": 1791555691879
+  },
+  "actions_test_791::woman": {
+   "box": [
+    299,
+    10,
+    543,
+    377
+   ],
+   "image": "selling_60.jpg",
+   "phrase": "the entity doing the sell action",
+   "t": 1791555698149
+  },
+  "actions_test_133::roof": {
+   "box": [
+    3,
+    183,
+    506,
+    278
+   ],
+   "image": "sitting_183.jpg",
+   "phrase": "the thing being sat on",
+   "t": 1791555710341
+  },
+  "actions_test_111::man": {
+   "box": [
+    11,
+    51,
+    720,
+    505
+   ],
+   "image": "ailing_51.jpg",
+   "phrase": "the entity doing the ail action",
+   "t": 1791555791437
+  },
+  "actions_test_105::hand": {
+   "box": [
+    162,
+    256,
+    345,
+    474
+   ],
+   "image": "clapping_55.jpg",
+   "phrase": "the part of the agent that is clapping",
+   "t": 1791555797247
+  },
+  "actions_test_335::family": {
+   "box": [
+    154,
+    96,
+    717,
+    505
+   ],
+   "image": "camping_130.jpg",
+   "phrase": "the one who is camping (the agent)",
+   "t": 1791555806523
+  },
+  "actions_test_1037::man": {
+   "box": [
+    5,
+    76,
+    427,
+    508
+   ],
+   "image": "driving_253.jpg",
+   "phrase": "the one who is driving (the agent)",
+   "t": 1791555812117
+  },
+  "actions_test_148::bicycle": {
+   "box": [
+    155,
+    171,
+    745,
+    508
+   ],
+   "image": "pedaling_42.jpg",
+   "phrase": "the entity being pedaled",
+   "t": 1791555833839
+  },
+  "actions_test_989::man": {
+   "box": [
+    126,
+    366,
+    417,
+    775
+   ],
+   "image": "subduing_201.jpg",
+   "phrase": "the entity being subdued",
+   "t": 1791555839015
+  },
+  "actions_test_312::child": {
+   "box": null,
+   "image": "training_104.jpg",
+   "phrase": "the entity receiving the training",
+   "t": 1791555850089
+  },
+  "actions_test_351::male": {
+   "box": [
+    206,
+    297,
+    378,
+    528
+   ],
+   "image": "kicking_269.jpg",
+   "phrase": "the one who is kicking (the agent)",
+   "t": 1791555854563
+  },
+  "actions_test_1032::crib": {
+   "box": [
+    4,
+    246,
+    509,
+    764
+   ],
+   "image": "gnawing_359.jpg",
+   "phrase": "the entity being gnawed",
+   "t": 1791555863729
+  },
+  "actions_test_825::man": {
+   "box": [
+    23,
+    5,
+    359,
+    507
+   ],
+   "image": "chiseling_203.jpg",
+   "phrase": "the one who is chiseling (the agent)",
+   "t": 1791555869947
+  },
+  "actions_test_371::woman": {
+   "box": [
+    197,
+    331,
+    597,
+    507
+   ],
+   "image": "reassuring_32.jpg",
+   "phrase": "the one being reassured",
+   "t": 1791555879445
+  },
+  "actions_test_469::dog": {
+   "box": [
+    49,
+    21,
+    506,
+    797
+   ],
+   "image": "sitting_103.jpg",
+   "phrase": "the one who is sitting (the agent)",
+   "t": 1791555886057
+  },
+  "actions_test_732::bird": {
+   "box": [
+    16,
+    1,
+    585,
+    472
+   ],
+   "image": "releasing_195.jpg",
+   "phrase": "the person/entity being released",
+   "t": 1791555899191
+  },
+  "actions_test_1033::stairs": {
+   "box": [
+    131,
+    168,
+    382,
+    412
+   ],
+   "image": "stumbling_49.jpg",
+   "phrase": "where the agent ends up",
+   "t": 1791555918669
+  },
+  "actions_test_820::label": {
+   "box": [
+    106,
+    168,
+    202,
+    268
+   ],
+   "image": "checking_288.jpg",
+   "phrase": "the thing checked",
+   "t": 1791555923637
+  },
+  "actions_test_327::person": {
+   "box": [
+    166,
+    2,
+    980,
+    502
+   ],
+   "image": "kneading_28.jpg",
+   "phrase": "the one who is kneading (the agent)",
+   "t": 1791555933025
+  },
+  "actions_test_823::man": {
+   "box": [
+    88,
+    38,
+    405,
+    472
+   ],
+   "image": "aiming_123.jpg",
+   "phrase": "the one who is aiming (the agent)",
+   "t": 1791555941175
+  },
+  "actions_test_2::certificate": {
+   "box": [
+    74,
+    276,
+    470,
+    495
+   ],
+   "image": "displaying_251.jpg",
+   "phrase": "the entity being displayed",
+   "t": 1791555954939
+  },
+  "actions_test_636::ground": {
+   "box": [
+    192,
+    92,
+    763,
+    447
+   ],
+   "image": "landing_82.jpg",
+   "phrase": "where the AGENT ends up",
+   "t": 1791555961174
+  },
+  "actions_test_820::man": {
+   "box": [
+    51,
+    25,
+    377,
+    508
+   ],
+   "image": "checking_288.jpg",
+   "phrase": "the one who is checking (the agent)",
+   "t": 1791555966933
+  },
+  "actions_test_621::mother": {
+   "box": [
+    25,
+    5,
+    405,
+    510
+   ],
+   "image": "scolding_54.jpg",
+   "phrase": "the one who is scolding (the agent)",
+   "t": 1791555973939
+  },
+  "actions_test_439::female child": {
+   "box": [
+    30,
+    364,
+    188,
+    500
+   ],
+   "image": "camping_56.jpg",
+   "phrase": "the one who is camping (the agent)",
+   "t": 1791555981741
+  },
+  "actions_test_484::male child": {
+   "box": [
+    0,
+    93,
+    394,
+    507
+   ],
+   "image": "instructing_216.jpg",
+   "phrase": "the entity being instructed",
+   "t": 1791555988687
+  },
+  "actions_test_335::tent": {
+   "box": [
+    139,
+    17,
+    902,
+    483
+   ],
+   "image": "camping_130.jpg",
+   "phrase": "the item providing shelter",
+   "t": 1791556001865
+  },
+  "actions_test_907::saliva": {
+   "box": [
+    43,
+    41,
+    300,
+    291
+   ],
+   "image": "spitting_176.jpg",
+   "phrase": "the item that is being spit",
+   "t": 1791556006763
+  },
+  "actions_test_1010::man": {
+   "box": [
+    226,
+    38,
+    553,
+    415
+   ],
+   "image": "driving_15.jpg",
+   "phrase": "the one who is driving (the agent)",
+   "t": 1791556012584
+  },
+  "actions_test_810::cow": {
+   "box": [
+    471,
+    37,
+    655,
+    165
+   ],
+   "image": "milking_226.jpg",
+   "phrase": "the thing being milked",
+   "t": 1791556019363
+  },
+  "actions_test_566::football": {
+   "box": [
+    351,
+    171,
+    410,
+    211
+   ],
+   "image": "punting_141.jpg",
+   "phrase": "the thing being punted",
+   "t": 1791556025687
+  },
+  "actions_test_535::man": {
+   "box": [
+    236,
+    42,
+    752,
+    508
+   ],
+   "image": "coaching_215.jpg",
+   "phrase": "the one who is coaching (the agent)",
+   "t": 1791556086741
+  },
+  "actions_test_604::airplane": {
+   "box": null,
+   "image": "taxiing_77.jpg",
+   "phrase": "the one who is taxiing (the agent)",
+   "t": 1791556094223
+  },
+  "actions_test_71::female child": {
+   "box": [
+    15,
+    153,
+    354,
+    505
+   ],
+   "image": "encouraging_117.jpg",
+   "phrase": "the entity getting encouraged",
+   "t": 1791556102751
+  },
+  "actions_test_318::curate": {
+   "box": [
+    128,
+    71,
+    405,
+    405
+   ],
+   "image": "preaching_126.jpg",
+   "phrase": "the one who is preaching (the agent)",
+   "t": 1791556108863
+  },
+  "actions_test_913::ground": {
+   "box": [
+    487,
+    329,
+    732,
+    493
+   ],
+   "image": "pouncing_170.jpg",
+   "phrase": "the entity which is getting pounced onto",
+   "t": 1791556147531
+  },
+  "actions_test_463::boat": {
+   "box": [
+    3,
+    105,
+    766,
+    234
+   ],
+   "image": "rowing_230.jpg",
+   "phrase": "the entity being rowed (i.e. a boat)",
+   "t": 1791556143971
+  },
+  "actions_test_590::policeman": {
+   "box": null,
+   "image": "detaining_218.jpg",
+   "phrase": "the one who is detaining (the agent)",
+   "t": 1791556160917
+  },
+  "actions_test_489::man": {
+   "box": [
+    290,
+    49,
+    609,
+    437
+   ],
+   "image": "selling_144.jpg",
+   "phrase": "the entity doing the sell action",
+   "t": 1791556165957
+  },
+  "actions_test_111::arm": {
+   "box": [
+    604,
+    252,
+    774,
+    410
+   ],
+   "image": "ailing_51.jpg",
+   "phrase": "the part of the victim that is ailing",
+   "t": 1791556174235
+  },
+  "actions_test_436::bicycle": {
+   "box": [
+    148,
+    264,
+    550,
+    496
+   ],
+   "image": "commuting_44.jpg",
+   "phrase": "the vehicle in which the traveler is commuting",
+   "t": 1791556179551
+  },
+  "actions_test_424::dog": {
+   "box": [
+    174,
+    49,
+    562,
+    436
+   ],
+   "image": "calming_175.jpg",
+   "phrase": "the entity that is being calmed ( when different than AGENT )",
+   "t": 1791556184831
+  },
+  "actions_test_732::man": {
+   "box": [
+    104,
+    215,
+    671,
+    511
+   ],
+   "image": "releasing_195.jpg",
+   "phrase": "the one who is releasing (the agent)",
+   "t": 1791556204083
+  },
+  "actions_test_663::hand": {
+   "box": [
+    517,
+    244,
+    763,
+    424
+   ],
+   "image": "biting_394.jpg",
+   "phrase": "the item that is being bitten",
+   "t": 1791556209121
+  },
+  "actions_test_770::woman": {
+   "box": [
+    48,
+    118,
+    471,
+    474
+   ],
+   "image": "kneeling_101.jpg",
+   "phrase": "the one who is kneeling (the agent)",
+   "t": 1791556218019
+  },
+  "actions_test_526::man": {
+   "box": [
+    354,
+    268,
+    435,
+    337
+   ],
+   "image": "plummeting_33.jpg",
+   "phrase": "the one who is plummeting (the agent)",
+   "t": 1791556224999
+  },
+  "actions_test_590::man": {
+   "box": [
+    286,
+    149,
+    763,
+    506
+   ],
+   "image": "detaining_218.jpg",
+   "phrase": "the one being detained",
+   "t": 1791556234749
+  },
+  "actions_test_450::man": {
+   "box": [
+    22,
+    68,
+    471,
+    769
+   ],
+   "image": "phoning_220.jpg",
+   "phrase": "the one who is phoning (the agent)",
+   "t": 1791556243661
+  },
+  "actions_test_564::businesswoman": {
+   "box": [
+    263,
+    103,
+    465,
+    373
+   ],
+   "image": "training_228.jpg",
+   "phrase": "the one who is training (the agent)",
+   "t": 1791556248705
+  },
+  "actions_test_611::soldier": {
+   "box": [
+    17,
+    232,
+    351,
+    491
+   ],
+   "image": "boarding_52.jpg",
+   "phrase": "the one who is boarding (the agent)",
+   "t": 1791556263271
+  },
+  "actions_test_38::male child": {
+   "box": [
+    430,
+    91,
+    726,
+    511
+   ],
+   "image": "disciplining_110.jpg",
+   "phrase": "the one being disciplined",
+   "t": 1791556272177
+  }
+ }
+}

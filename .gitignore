@@ -12,9 +12,6 @@ data/aro/*
 data/joined/*
 !data/joined/*.valid.jsonl
 # per-item run outputs are large and still growing; summaries and the gold-check sheet are kept
-outputs/*
-!outputs/summary_*.md
-!outputs/gold_flagged.csv
 # LaTeX build products (main.pdf is kept)
 paper/build/
 paper/*.log
@@ -24,13 +21,8 @@ paper/*.bbl
 paper/foils-vs-pointing-overleaf.zip
 paper/figures/candidates/
 paper/figures/candidates_incorrect/
-annotation/*.json
 
 # editor settings and the example-candidate galleries
 .vscode/
 paper/figures/candidates_*/
-annotation/*.zip
-annotation/*_bundle/
-
-# review copy: the per-item files under outputs/ are part of the copy
-!outputs/*
+# review copy: every file under outputs/ and annotation/ is part of the copy

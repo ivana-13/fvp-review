@@ -1,0 +1,2802 @@
+[
+ {
+  "id": "actions_test_192::driver",
+  "image": "fording_250.jpg",
+  "src": "../data/swig/images/fording_250.jpg",
+  "phrase": "the one who is fording (the agent)",
+  "role": "agent",
+  "word": "driver",
+  "gold": [
+   345,
+   152,
+   400,
+   206
+  ]
+ },
+ {
+  "id": "actions_test_1010::motorcycle",
+  "image": "driving_15.jpg",
+  "src": "../data/swig/images/driving_15.jpg",
+  "phrase": "the entity that is being drived, e.g.) car",
+  "role": "item",
+  "word": "motorcycle",
+  "gold": [
+   16,
+   123,
+   558,
+   419
+  ]
+ },
+ {
+  "id": "actions_test_411::scuba diver",
+  "image": "spearing_139.jpg",
+  "src": "../data/swig/images/spearing_139.jpg",
+  "phrase": "the one who is spearing (the agent)",
+  "role": "agent",
+  "word": "scuba diver",
+  "gold": [
+   145,
+   45,
+   425,
+   506
+  ]
+ },
+ {
+  "id": "actions_test_513::person",
+  "image": "pressing_289.jpg",
+  "src": "../data/swig/images/pressing_289.jpg",
+  "phrase": "the one who is pressing (the agent)",
+  "role": "agent",
+  "word": "person",
+  "gold": [
+   1,
+   261,
+   508,
+   511
+  ]
+ },
+ {
+  "id": "actions_test_426::woman",
+  "image": "detaining_24.jpg",
+  "src": "../data/swig/images/detaining_24.jpg",
+  "phrase": "the one being detained",
+  "role": "victim",
+  "word": "woman",
+  "gold": [
+   324,
+   87,
+   505,
+   384
+  ]
+ },
+ {
+  "id": "actions_test_718::jump rope",
+  "image": "skipping_178.jpg",
+  "src": "../data/swig/images/skipping_178.jpg",
+  "phrase": "the entity being skipped over",
+  "role": "obstacle",
+  "word": "jump rope",
+  "gold": [
+   126,
+   233,
+   686,
+   415
+  ]
+ },
+ {
+  "id": "actions_test_944::man",
+  "image": "apprehending_195.jpg",
+  "src": "../data/swig/images/apprehending_195.jpg",
+  "phrase": "the entity being apprehended",
+  "role": "victim",
+  "word": "man",
+  "gold": [
+   410,
+   26,
+   522,
+   464
+  ]
+ },
+ {
+  "id": "actions_test_385::man",
+  "image": "spearing_167.jpg",
+  "src": "../data/swig/images/spearing_167.jpg",
+  "phrase": "the one who is spearing (the agent)",
+  "role": "agent",
+  "word": "man",
+  "gold": [
+   247,
+   32,
+   573,
+   477
+  ]
+ },
+ {
+  "id": "actions_test_241::people",
+  "image": "rowing_37.jpg",
+  "src": "../data/swig/images/rowing_37.jpg",
+  "phrase": "the one who is rowing (the agent)",
+  "role": "agent",
+  "word": "people",
+  "gold": [
+   154,
+   107,
+   405,
+   389
+  ]
+ },
+ {
+  "id": "actions_test_762::bucket",
+  "image": "sowing_137.jpg",
+  "src": "../data/swig/images/sowing_137.jpg",
+  "phrase": "any tool helping the AGENT sow",
+  "role": "tool",
+  "word": "bucket",
+  "gold": [
+   190,
+   199,
+   248,
+   256
+  ]
+ },
+ {
+  "id": "actions_test_461::tractor",
+  "image": "tilling_172.jpg",
+  "src": "../data/swig/images/tilling_172.jpg",
+  "phrase": "the entity helping the agent do the Till action",
+  "role": "tool",
+  "word": "tractor",
+  "gold": [
+   159,
+   0,
+   333,
+   170
+  ]
+ },
+ {
+  "id": "actions_test_665::man",
+  "image": "tripping_61.jpg",
+  "src": "../data/swig/images/tripping_61.jpg",
+  "phrase": "the one who is tripping (the agent)",
+  "role": "agent",
+  "word": "man",
+  "gold": [
+   146,
+   13,
+   426,
+   490
+  ]
+ },
+ {
+  "id": "actions_test_551::cow",
+  "image": "plowing_157.jpg",
+  "src": "../data/swig/images/plowing_157.jpg",
+  "phrase": "the object being used to do the plowing",
+  "role": "instrument",
+  "word": "cow",
+  "gold": [
+   364,
+   212,
+   688,
+   462
+  ]
+ },
+ {
+  "id": "actions_test_964::window",
+  "image": "smashing_239.jpg",
+  "src": "../data/swig/images/smashing_239.jpg",
+  "phrase": "the thing that is getting smashed",
+  "role": "smashed",
+  "word": "window",
+  "gold": [
+   0,
+   0,
+   768,
+   511
+  ]
+ },
+ {
+  "id": "actions_test_951::man",
+  "image": "burning_222.jpg",
+  "src": "../data/swig/images/burning_222.jpg",
+  "phrase": "the one who is burning (the agent)",
+  "role": "agent",
+  "word": "man",
+  "gold": [
+   83,
+   31,
+   367,
+   476
+  ]
+ },
+ {
+  "id": "actions_test_192::sport utility",
+  "image": "fording_250.jpg",
+  "src": "../data/swig/images/fording_250.jpg",
+  "phrase": "the tool the agent uses to ford",
+  "role": "tool",
+  "word": "sport utility",
+  "gold": [
+   119,
+   107,
+   511,
+   345
+  ]
+ },
+ {
+  "id": "actions_test_291::woman",
+  "image": "floating_74.jpg",
+  "src": "../data/swig/images/floating_74.jpg",
+  "phrase": "the one who is floating (the agent)",
+  "role": "agent",
+  "word": "woman",
+  "gold": [
+   103,
+   166,
+   1003,
+   452
+  ]
+ },
+ {
+  "id": "actions_test_210::woman",
+  "image": "reassuring_119.jpg",
+  "src": "../data/swig/images/reassuring_119.jpg",
+  "phrase": "the one who is reassuring (the agent)",
+  "role": "agent",
+  "word": "woman",
+  "gold": [
+   1,
+   0,
+   477,
+   759
+  ]
+ },
+ {
+  "id": "actions_test_230::man",
+  "image": "offering_207.jpg",
+  "src": "../data/swig/images/offering_207.jpg",
+  "phrase": "the one who is offering (the agent)",
+  "role": "agent",
+  "word": "man",
+  "gold": [
+   52,
+   27,
+   457,
+   768
+  ]
+ },
+ {
+  "id": "actions_test_535::woman",
+  "image": "coaching_215.jpg",
+  "src": "../data/swig/images/coaching_215.jpg",
+  "phrase": "the ones being coached",
+  "role": "student",
+  "word": "woman",
+  "gold": [
+   16,
+   69,
+   258,
+   511
+  ]
+ },
+ {
+  "id": "actions_test_130::bicycle",
+  "image": "pedaling_46.jpg",
+  "src": "../data/swig/images/pedaling_46.jpg",
+  "phrase": "the entity being pedaled",
+  "role": "vehicle",
+  "word": "bicycle",
+  "gold": [
+   142,
+   289,
+   455,
+   763
+  ]
+ },
+ {
+  "id": "actions_test_10::teacher",
+  "image": "teaching_68.jpg",
+  "src": "../data/swig/images/teaching_68.jpg",
+  "phrase": "the entity doing the teach action",
+  "role": "teacher",
+  "word": "teacher",
+  "gold": [
+   230,
+   43,
+   641,
+   492
+  ]
+ },
+ {
+  "id": "actions_test_252::person",
+  "image": "aiming_80.jpg",
+  "src": "../data/swig/images/aiming_80.jpg",
+  "phrase": "the one who is aiming (the agent)",
+  "role": "agent",
+  "word": "person",
+  "gold": [
+   0,
+   169,
+   606,
+   510
+  ]
+ },
+ {
+  "id": "actions_test_1032::baby",
+  "image": "gnawing_359.jpg",
+  "src": "../data/swig/images/gnawing_359.jpg",
+  "phrase": "the one who is gnawing (the agent)",
+  "role": "agent",
+  "word": "baby",
+  "gold": [
+   258,
+   119,
+   485,
+   738
+  ]
+ },
+ {
+  "id": "actions_test_489::food",
+  "image": "selling_144.jpg",
+  "src": "../data/swig/images/selling_144.jpg",
+  "phrase": "the thing being sold",
+  "role": "item",
+  "word": "food",
+  "gold": [
+   143,
+   319,
+   694,
+   465
+  ]
+ },
+ {
+  "id": "actions_test_23::athlete",
+  "image": "punting_124.jpg",
+  "src": "../data/swig/images/punting_124.jpg",
+  "phrase": "the one who is punting (the agent)",
+  "role": "agent",
+  "word": "athlete",
+  "gold": [
+   109,
+   95,
+   401,
+   417
+  ]
+ },
+ {
+  "id": "actions_test_1037::trailer truck",
+  "image": "driving_253.jpg",
+  "src": "../data/swig/images/driving_253.jpg",
+  "phrase": "the entity that is being drived, e.g.) car",
+  "role": "item",
+  "word": "trailer truck",
+  "gold": [
+   0,
+   0,
+   744,
+   510
+  ]
+ },
+ {
+  "id": "actions_test_238::flower",
+  "image": "clinging_185.jpg",
+  "src": "../data/swig/images/clinging_185.jpg",
+  "phrase": "the entity the AGENT is clinging to",
+  "role": "clungto",
+  "word": "flower",
+  "gold": [
+   353,
+   42,
+   487,
+   177
+  ]
+ },
+ {
+  "id": "actions_test_266::mother",
+  "image": "nuzzling_4.jpg",
+  "src": "../data/swig/images/nuzzling_4.jpg",
+  "phrase": "the one who is nuzzling (the agent)",
+  "role": "agent",
+  "word": "mother",
+  "gold": [
+   0,
+   0,
+   288,
+   422
+  ]
+ },
+ {
+  "id": "actions_test_913::leopard",
+  "image": "pouncing_170.jpg",
+  "src": "../data/swig/images/pouncing_170.jpg",
+  "phrase": "the one who is pouncing (the agent)",
+  "role": "agent",
+  "word": "leopard",
+  "gold": [
+   94,
+   115,
+   624,
+   353
+  ]
+ },
+ {
+  "id": "actions_test_280::man",
+  "image": "kicking_339.jpg",
+  "src": "../data/swig/images/kicking_339.jpg",
+  "phrase": "the one who is kicking (the agent)",
+  "role": "agent",
+  "word": "man",
+  "gold": [
+   144,
+   114,
+   508,
+   636
+  ]
+ },
+ {
+  "id": "actions_test_371::man",
+  "image": "reassuring_32.jpg",
+  "src": "../data/swig/images/reassuring_32.jpg",
+  "phrase": "the one who is reassuring (the agent)",
+  "role": "agent",
+  "word": "man",
+  "gold": [
+   1,
+   0,
+   814,
+   509
+  ]
+ },
+ {
+  "id": "actions_test_10::student",
+  "image": "teaching_68.jpg",
+  "src": "../data/swig/images/teaching_68.jpg",
+  "phrase": "the entity being taught",
+  "role": "student",
+  "word": "student",
+  "gold": [
+   0,
+   0,
+   358,
+   478
+  ]
+ },
+ {
+  "id": "actions_test_1038::turkey",
+  "image": "cooking_66.jpg",
+  "src": "../data/swig/images/cooking_66.jpg",
+  "phrase": "the thing being created",
+  "role": "food",
+  "word": "turkey",
+  "gold": [
+   112,
+   100,
+   587,
+   464
+  ]
+ },
+ {
+  "id": "actions_test_898::pizza",
+  "image": "eating_336.jpg",
+  "src": "../data/swig/images/eating_336.jpg",
+  "phrase": "the thing being consumed",
+  "role": "food",
+  "word": "pizza",
+  "gold": [
+   139,
+   422,
+   511,
+   769
+  ]
+ },
+ {
+  "id": "actions_test_23::soccer ball",
+  "image": "punting_124.jpg",
+  "src": "../data/swig/images/punting_124.jpg",
+  "phrase": "the thing being punted",
+  "role": "item",
+  "word": "soccer ball",
+  "gold": [
+   222,
+   212,
+   267,
+   255
+  ]
+ },
+ {
+  "id": "actions_test_27::person",
+  "image": "boating_55.jpg",
+  "src": "../data/swig/images/boating_55.jpg",
+  "phrase": "the group of entities doing the boating",
+  "role": "boaters",
+  "word": "person",
+  "gold": [
+   144,
+   285,
+   211,
+   299
+  ]
+ },
+ {
+  "id": "actions_test_241::canoe",
+  "image": "rowing_37.jpg",
+  "src": "../data/swig/images/rowing_37.jpg",
+  "phrase": "the entity being rowed (i.e. a boat)",
+  "role": "vehicle",
+  "word": "canoe",
+  "gold": [
+   2,
+   287,
+   1192,
+   470
+  ]
+ },
+ {
+  "id": "actions_test_718::people",
+  "image": "skipping_178.jpg",
+  "src": "../data/swig/images/skipping_178.jpg",
+  "phrase": "the one who is skipping (the agent)",
+  "role": "agent",
+  "word": "people",
+  "gold": [
+   17,
+   122,
+   680,
+   428
+  ]
+ },
+ {
+  "id": "actions_test_312::woman",
+  "image": "training_104.jpg",
+  "src": "../data/swig/images/training_104.jpg",
+  "phrase": "the one who is training (the agent)",
+  "role": "agent",
+  "word": "woman",
+  "gold": [
+   366,
+   140,
+   428,
+   261
+  ]
+ },
+ {
+  "id": "actions_test_551::man",
+  "image": "plowing_157.jpg",
+  "src": "../data/swig/images/plowing_157.jpg",
+  "phrase": "the one who is plowing (the agent)",
+  "role": "agent",
+  "word": "man",
+  "gold": [
+   243,
+   164,
+   340,
+   413
+  ]
+ },
+ {
+  "id": "actions_test_245::wire",
+  "image": "unplugging_6.jpg",
+  "src": "../data/swig/images/unplugging_6.jpg",
+  "phrase": "the object being unplugged",
+  "role": "unplugged",
+  "word": "wire",
+  "gold": [
+   1,
+   0,
+   668,
+   512
+  ]
+ },
+ {
+  "id": "actions_test_254::farmer",
+  "image": "tilling_110.jpg",
+  "src": "../data/swig/images/tilling_110.jpg",
+  "phrase": "the one who is tilling (the agent)",
+  "role": "agent",
+  "word": "farmer",
+  "gold": [
+   187,
+   129,
+   301,
+   425
+  ]
+ },
+ {
+  "id": "actions_test_1002::woman",
+  "image": "driving_85.jpg",
+  "src": "../data/swig/images/driving_85.jpg",
+  "phrase": "the one who is driving (the agent)",
+  "role": "agent",
+  "word": "woman",
+  "gold": [
+   39,
+   3,
+   820,
+   512
+  ]
+ },
+ {
+  "id": "actions_test_989::policeman",
+  "image": "subduing_201.jpg",
+  "src": "../data/swig/images/subduing_201.jpg",
+  "phrase": "the one who is subduing (the agent)",
+  "role": "agent",
+  "word": "policeman",
+  "gold": [
+   114,
+   288,
+   478,
+   755
+  ]
+ },
+ {
+  "id": "actions_test_871::woman",
+  "image": "shopping_215.jpg",
+  "src": "../data/swig/images/shopping_215.jpg",
+  "phrase": "the one who is shopping (the agent)",
+  "role": "agent",
+  "word": "woman",
+  "gold": [
+   51,
+   23,
+   614,
+   510
+  ]
+ },
+ {
+  "id": "actions_test_779::baby",
+  "image": "baptizing_201.jpg",
+  "src": "../data/swig/images/baptizing_201.jpg",
+  "phrase": "the person(s) being baptized",
+  "role": "baptized",
+  "word": "baby",
+  "gold": [
+   118,
+   202,
+   471,
+   485
+  ]
+ },
+ {
+  "id": "actions_test_33::boat",
+  "image": "rowing_259.jpg",
+  "src": "../data/swig/images/rowing_259.jpg",
+  "phrase": "the entity being rowed (i.e. a boat)",
+  "role": "vehicle",
+  "word": "boat",
+  "gold": [
+   69,
+   125,
+   580,
+   483
+  ]
+ },
+ {
+  "id": "actions_test_810::woman",
+  "image": "milking_226.jpg",
+  "src": "../data/swig/images/milking_226.jpg",
+  "phrase": "the one who is milking (the agent)",
+  "role": "agent",
+  "word": "woman",
+  "gold": [
+   0,
+   6,
+   666,
+   450
+  ]
+ },
+ {
+  "id": "actions_test_318::people",
+  "image": "preaching_126.jpg",
+  "src": "../data/swig/images/preaching_126.jpg",
+  "phrase": "the entity who is getting preached to",
+  "role": "addressee",
+  "word": "people",
+  "gold": [
+   2,
+   357,
+   425,
+   562
+  ]
+ },
+ {
+  "id": "actions_test_611::ship",
+  "image": "boarding_52.jpg",
+  "src": "../data/swig/images/boarding_52.jpg",
+  "phrase": "the vehicle which the agent boards",
+  "role": "vehicle",
+  "word": "ship",
+  "gold": [
+   4,
+   1,
+   716,
+   509
+  ]
+ },
+ {
+  "id": "actions_test_663::dog",
+  "image": "biting_394.jpg",
+  "src": "../data/swig/images/biting_394.jpg",
+  "phrase": "the one who is biting (the agent)",
+  "role": "agent",
+  "word": "dog",
+  "gold": [
+   88,
+   249,
+   641,
+   509
+  ]
+ },
+ {
+  "id": "actions_test_863::label",
+  "image": "reading_67.jpg",
+  "src": "../data/swig/images/reading_67.jpg",
+  "phrase": "the thing being read",
+  "role": "item",
+  "word": "label",
+  "gold": [
+   489,
+   181,
+   722,
+   432
+  ]
+ },
+ {
+  "id": "actions_test_864::water",
+  "image": "floating_181.jpg",
+  "src": "../data/swig/images/floating_181.jpg",
+  "phrase": "the entity in which the float action is taking place",
+  "role": "medium",
+  "word": "water",
+  "gold": [
+   2,
+   310,
+   908,
+   509
+  ]
+ },
+ {
+  "id": "actions_test_1022::soldier",
+  "image": "subduing_22.jpg",
+  "src": "../data/swig/images/subduing_22.jpg",
+  "phrase": "the one who is subduing (the agent)",
+  "role": "agent",
+  "word": "soldier",
+  "gold": [
+   180,
+   30,
+   676,
+   427
+  ]
+ },
+ {
+  "id": "actions_test_461::farmer",
+  "image": "tilling_172.jpg",
+  "src": "../data/swig/images/tilling_172.jpg",
+  "phrase": "the one who is tilling (the agent)",
+  "role": "agent",
+  "word": "farmer",
+  "gold": [
+   243,
+   17,
+   280,
+   67
+  ]
+ },
+ {
+  "id": "actions_test_436::woman",
+  "image": "commuting_44.jpg",
+  "src": "../data/swig/images/commuting_44.jpg",
+  "phrase": "the entity doing the commute action",
+  "role": "traveler",
+  "word": "woman",
+  "gold": [
+   268,
+   156,
+   429,
+   455
+  ]
+ },
+ {
+  "id": "actions_test_484::man",
+  "image": "instructing_216.jpg",
+  "src": "../data/swig/images/instructing_216.jpg",
+  "phrase": "the one who is instructing (the agent)",
+  "role": "agent",
+  "word": "man",
+  "gold": [
+   217,
+   23,
+   771,
+   506
+  ]
+ },
+ {
+  "id": "actions_test_33::people",
+  "image": "rowing_259.jpg",
+  "src": "../data/swig/images/rowing_259.jpg",
+  "phrase": "the one who is rowing (the agent)",
+  "role": "agent",
+  "word": "people",
+  "gold": [
+   88,
+   39,
+   567,
+   432
+  ]
+ },
+ {
+  "id": "actions_test_38::woman",
+  "image": "disciplining_110.jpg",
+  "src": "../data/swig/images/disciplining_110.jpg",
+  "phrase": "the one who is disciplining (the agent)",
+  "role": "agent",
+  "word": "woman",
+  "gold": [
+   0,
+   0,
+   510,
+   512
+  ]
+ },
+ {
+  "id": "actions_test_31::guest",
+  "image": "applauding_36.jpg",
+  "src": "../data/swig/images/applauding_36.jpg",
+  "phrase": "the one who is applauding (the agent)",
+  "role": "agent",
+  "word": "guest",
+  "gold": [
+   4,
+   126,
+   785,
+   507
+  ]
+ },
+ {
+  "id": "actions_test_944::traffic cop",
+  "image": "apprehending_195.jpg",
+  "src": "../data/swig/images/apprehending_195.jpg",
+  "phrase": "the one who is apprehending (the agent)",
+  "role": "agent",
+  "word": "traffic cop",
+  "gold": [
+   288,
+   29,
+   445,
+   463
+  ]
+ },
+ {
+  "id": "actions_test_743::cellular telephone",
+  "image": "aiming_133.jpg",
+  "src": "../data/swig/images/aiming_133.jpg",
+  "phrase": "the thing being aimed",
+  "role": "item",
+  "word": "cellular telephone",
+  "gold": [
+   501,
+   44,
+   565,
+   192
+  ]
+ },
+ {
+  "id": "actions_test_907::man",
+  "image": "spitting_176.jpg",
+  "src": "../data/swig/images/spitting_176.jpg",
+  "phrase": "the one who is spitting (the agent)",
+  "role": "agent",
+  "word": "man",
+  "gold": [
+   17,
+   116,
+   554,
+   511
+  ]
+ },
+ {
+  "id": "actions_test_114::puppy",
+  "image": "tugging_18.jpg",
+  "src": "../data/swig/images/tugging_18.jpg",
+  "phrase": "the one who is tugging (the agent)",
+  "role": "agent",
+  "word": "puppy",
+  "gold": [
+   152,
+   240,
+   465,
+   617
+  ]
+ },
+ {
+  "id": "actions_test_351::football",
+  "image": "kicking_269.jpg",
+  "src": "../data/swig/images/kicking_269.jpg",
+  "phrase": "the thing being kicked",
+  "role": "victim",
+  "word": "football",
+  "gold": [
+   195,
+   487,
+   226,
+   523
+  ]
+ },
+ {
+  "id": "actions_test_27::motorboat",
+  "image": "boating_55.jpg",
+  "src": "../data/swig/images/boating_55.jpg",
+  "phrase": "the type of boat",
+  "role": "vehicle",
+  "word": "motorboat",
+  "gold": [
+   130,
+   196,
+   604,
+   371
+  ]
+ },
+ {
+  "id": "actions_test_498::passenger",
+  "image": "disembarking_122.jpg",
+  "src": "../data/swig/images/disembarking_122.jpg",
+  "phrase": "the one who is disembarking (the agent)",
+  "role": "agent",
+  "word": "passenger",
+  "gold": [
+   93,
+   313,
+   612,
+   512
+  ]
+ },
+ {
+  "id": "actions_test_667::woman",
+  "image": "buttoning_83.jpg",
+  "src": "../data/swig/images/buttoning_83.jpg",
+  "phrase": "the one who is buttoning (the agent)",
+  "role": "agent",
+  "word": "woman",
+  "gold": [
+   19,
+   158,
+   150,
+   453
+  ]
+ },
+ {
+  "id": "actions_test_513::computer",
+  "image": "pressing_289.jpg",
+  "src": "../data/swig/images/pressing_289.jpg",
+  "phrase": "the thing the agent is pressing",
+  "role": "item",
+  "word": "computer",
+  "gold": [
+   128,
+   131,
+   466,
+   352
+  ]
+ },
+ {
+  "id": "actions_test_617::police",
+  "image": "arresting_110.jpg",
+  "src": "../data/swig/images/arresting_110.jpg",
+  "phrase": "the one who is arresting (the agent)",
+  "role": "agent",
+  "word": "police",
+  "gold": [
+   2,
+   56,
+   505,
+   513
+  ]
+ },
+ {
+  "id": "actions_test_964::man",
+  "image": "smashing_239.jpg",
+  "src": "../data/swig/images/smashing_239.jpg",
+  "phrase": "the one who is smashing (the agent)",
+  "role": "agent",
+  "word": "man",
+  "gold": [
+   79,
+   63,
+   596,
+   510
+  ]
+ },
+ {
+  "id": "actions_test_863::female",
+  "image": "reading_67.jpg",
+  "src": "../data/swig/images/reading_67.jpg",
+  "phrase": "the one who is reading (the agent)",
+  "role": "agent",
+  "word": "female",
+  "gold": [
+   53,
+   0,
+   681,
+   511
+  ]
+ },
+ {
+  "id": "actions_test_2::man",
+  "image": "displaying_251.jpg",
+  "src": "../data/swig/images/displaying_251.jpg",
+  "phrase": "the one who is displaying (the agent)",
+  "role": "agent",
+  "word": "man",
+  "gold": [
+   1,
+   49,
+   528,
+   505
+  ]
+ },
+ {
+  "id": "actions_test_741::ballplayer",
+  "image": "stumbling_39.jpg",
+  "src": "../data/swig/images/stumbling_39.jpg",
+  "phrase": "the one who is stumbling (the agent)",
+  "role": "agent",
+  "word": "ballplayer",
+  "gold": [
+   0,
+   86,
+   681,
+   383
+  ]
+ },
+ {
+  "id": "actions_test_898::male child",
+  "image": "eating_336.jpg",
+  "src": "../data/swig/images/eating_336.jpg",
+  "phrase": "the one who is eating (the agent)",
+  "role": "agent",
+  "word": "male child",
+  "gold": [
+   1,
+   22,
+   510,
+   768
+  ]
+ },
+ {
+  "id": "actions_test_844::man",
+  "image": "nagging_145.jpg",
+  "src": "../data/swig/images/nagging_145.jpg",
+  "phrase": "the person being nagged by the agent",
+  "role": "naggedperson",
+  "word": "man",
+  "gold": [
+   270,
+   90,
+   705,
+   510
+  ]
+ },
+ {
+  "id": "actions_test_498::airplane",
+  "image": "disembarking_122.jpg",
+  "src": "../data/swig/images/disembarking_122.jpg",
+  "phrase": "the vehicle from which the agent is disembarking",
+  "role": "vehicle",
+  "word": "airplane",
+  "gold": [
+   10,
+   169,
+   612,
+   371
+  ]
+ },
+ {
+  "id": "actions_test_741::ball field",
+  "image": "stumbling_39.jpg",
+  "src": "../data/swig/images/stumbling_39.jpg",
+  "phrase": "where the agent ends up",
+  "role": "destination",
+  "word": "ball field",
+  "gold": [
+   1,
+   117,
+   681,
+   511
+  ]
+ },
+ {
+  "id": "actions_test_424::woman",
+  "image": "calming_175.jpg",
+  "src": "../data/swig/images/calming_175.jpg",
+  "phrase": "the one who is calming (the agent)",
+  "role": "agent",
+  "word": "woman",
+  "gold": [
+   292,
+   25,
+   767,
+   511
+  ]
+ },
+ {
+  "id": "actions_test_411::fish",
+  "image": "spearing_139.jpg",
+  "src": "../data/swig/images/spearing_139.jpg",
+  "phrase": "the thing that was speared",
+  "role": "victim",
+  "word": "fish",
+  "gold": [
+   401,
+   215,
+   559,
+   322
+  ]
+ },
+ {
+  "id": "actions_test_439::tent",
+  "image": "camping_56.jpg",
+  "src": "../data/swig/images/camping_56.jpg",
+  "phrase": "the item providing shelter",
+  "role": "shelter",
+  "word": "tent",
+  "gold": [
+   207,
+   235,
+   656,
+   472
+  ]
+ },
+ {
+  "id": "actions_test_280::sandbag",
+  "image": "kicking_339.jpg",
+  "src": "../data/swig/images/kicking_339.jpg",
+  "phrase": "the thing being kicked",
+  "role": "victim",
+  "word": "sandbag",
+  "gold": [
+   57,
+   330,
+   159,
+   454
+  ]
+ },
+ {
+  "id": "actions_test_557::bicycle",
+  "image": "commuting_210.jpg",
+  "src": "../data/swig/images/commuting_210.jpg",
+  "phrase": "the vehicle in which the traveler is commuting",
+  "role": "vehicle",
+  "word": "bicycle",
+  "gold": [
+   220,
+   254,
+   399,
+   654
+  ]
+ },
+ {
+  "id": "actions_test_743::man",
+  "image": "aiming_133.jpg",
+  "src": "../data/swig/images/aiming_133.jpg",
+  "phrase": "the one who is aiming (the agent)",
+  "role": "agent",
+  "word": "man",
+  "gold": [
+   41,
+   121,
+   570,
+   509
+  ]
+ },
+ {
+  "id": "actions_test_791::food",
+  "image": "selling_60.jpg",
+  "src": "../data/swig/images/selling_60.jpg",
+  "phrase": "the thing being sold",
+  "role": "item",
+  "word": "food",
+  "gold": [
+   0,
+   329,
+   750,
+   511
+  ]
+ },
+ {
+  "id": "actions_test_564::colleague",
+  "image": "training_228.jpg",
+  "src": "../data/swig/images/training_228.jpg",
+  "phrase": "the entity receiving the training",
+  "role": "student",
+  "word": "colleague",
+  "gold": [
+   38,
+   139,
+   664,
+   457
+  ]
+ },
+ {
+  "id": "actions_test_871::grocery store",
+  "image": "shopping_215.jpg",
+  "src": "../data/swig/images/shopping_215.jpg",
+  "phrase": "the thing the agent is shopping for",
+  "role": "goods",
+  "word": "grocery store",
+  "gold": [
+   285,
+   0,
+   764,
+   509
+  ]
+ },
+ {
+  "id": "actions_test_951::debris",
+  "image": "burning_222.jpg",
+  "src": "../data/swig/images/burning_222.jpg",
+  "phrase": "the object being burned",
+  "role": "target",
+  "word": "debris",
+  "gold": [
+   212,
+   77,
+   583,
+   486
+  ]
+ },
+ {
+  "id": "actions_test_556::man",
+  "image": "commuting_108.jpg",
+  "src": "../data/swig/images/commuting_108.jpg",
+  "phrase": "the entity doing the commute action",
+  "role": "traveler",
+  "word": "man",
+  "gold": [
+   348,
+   18,
+   517,
+   434
+  ]
+ },
+ {
+  "id": "actions_test_756::dough",
+  "image": "baking_248.jpg",
+  "src": "../data/swig/images/baking_248.jpg",
+  "phrase": "the thing being created",
+  "role": "food",
+  "word": "dough",
+  "gold": [
+   231,
+   258,
+   459,
+   438
+  ]
+ },
+ {
+  "id": "actions_test_1038::man",
+  "image": "cooking_66.jpg",
+  "src": "../data/swig/images/cooking_66.jpg",
+  "phrase": "the one who is cooking (the agent)",
+  "role": "agent",
+  "word": "man",
+  "gold": [
+   70,
+   0,
+   767,
+   424
+  ]
+ },
+ {
+  "id": "actions_test_252::gun",
+  "image": "aiming_80.jpg",
+  "src": "../data/swig/images/aiming_80.jpg",
+  "phrase": "the thing being aimed",
+  "role": "item",
+  "word": "gun",
+  "gold": [
+   272,
+   67,
+   693,
+   307
+  ]
+ },
+ {
+  "id": "actions_test_450::telephone",
+  "image": "phoning_220.jpg",
+  "src": "../data/swig/images/phoning_220.jpg",
+  "phrase": "the item being used to phone with, usually a phone",
+  "role": "tool",
+  "word": "telephone",
+  "gold": [
+   214,
+   188,
+   259,
+   258
+  ]
+ },
+ {
+  "id": "actions_test_469::floor",
+  "image": "sitting_103.jpg",
+  "src": "../data/swig/images/sitting_103.jpg",
+  "phrase": "the thing being sat on",
+  "role": "contact",
+  "word": "floor",
+  "gold": [
+   31,
+   770,
+   511,
+   840
+  ]
+ },
+ {
+  "id": "actions_test_557::man",
+  "image": "commuting_210.jpg",
+  "src": "../data/swig/images/commuting_210.jpg",
+  "phrase": "the entity doing the commute action",
+  "role": "traveler",
+  "word": "man",
+  "gold": [
+   216,
+   15,
+   445,
+   602
+  ]
+ },
+ {
+  "id": "actions_test_953::old man",
+  "image": "baking_113.jpg",
+  "src": "../data/swig/images/baking_113.jpg",
+  "phrase": "the one who is baking (the agent)",
+  "role": "agent",
+  "word": "old man",
+  "gold": [
+   60,
+   19,
+   479,
+   510
+  ]
+ },
+ {
+  "id": "actions_test_823::rifle",
+  "image": "aiming_123.jpg",
+  "src": "../data/swig/images/aiming_123.jpg",
+  "phrase": "the thing being aimed",
+  "role": "item",
+  "word": "rifle",
+  "gold": [
+   85,
+   42,
+   390,
+   502
+  ]
+ },
+ {
+  "id": "actions_test_426::policeman",
+  "image": "detaining_24.jpg",
+  "src": "../data/swig/images/detaining_24.jpg",
+  "phrase": "the one who is detaining (the agent)",
+  "role": "agent",
+  "word": "policeman",
+  "gold": [
+   430,
+   91,
+   593,
+   389
+  ]
+ },
+ {
+  "id": "actions_test_770::mat",
+  "image": "kneeling_101.jpg",
+  "src": "../data/swig/images/kneeling_101.jpg",
+  "phrase": "the entity the AGENT is kneeling on",
+  "role": "contact",
+  "word": "mat",
+  "gold": [
+   11,
+   422,
+   501,
+   486
+  ]
+ },
+ {
+  "id": "actions_test_206::dog",
+  "image": "nipping_40.jpg",
+  "src": "../data/swig/images/nipping_40.jpg",
+  "phrase": "the item receiving the nip action",
+  "role": "item",
+  "word": "dog",
+  "gold": [
+   3,
+   41,
+   500,
+   408
+  ]
+ },
+ {
+  "id": "actions_test_843::man",
+  "image": "plowing_120.jpg",
+  "src": "../data/swig/images/plowing_120.jpg",
+  "phrase": "the one who is plowing (the agent)",
+  "role": "agent",
+  "word": "man",
+  "gold": [
+   162,
+   67,
+   317,
+   329
+  ]
+ },
+ {
+  "id": "actions_test_114::knot",
+  "image": "tugging_18.jpg",
+  "src": "../data/swig/images/tugging_18.jpg",
+  "phrase": "the thing tugged",
+  "role": "item",
+  "word": "knot",
+  "gold": [
+   162,
+   25,
+   289,
+   263
+  ]
+ },
+ {
+  "id": "actions_test_105::comedian",
+  "image": "clapping_55.jpg",
+  "src": "../data/swig/images/clapping_55.jpg",
+  "phrase": "the one who is clapping (the agent)",
+  "role": "agent",
+  "word": "comedian",
+  "gold": [
+   27,
+   23,
+   476,
+   675
+  ]
+ },
+ {
+  "id": "actions_test_502::man",
+  "image": "slipping_6.jpg",
+  "src": "../data/swig/images/slipping_6.jpg",
+  "phrase": "the one who is slipping (the agent)",
+  "role": "agent",
+  "word": "man",
+  "gold": [
+   6,
+   45,
+   425,
+   423
+  ]
+ },
+ {
+  "id": "actions_test_502::floor",
+  "image": "slipping_6.jpg",
+  "src": "../data/swig/images/slipping_6.jpg",
+  "phrase": "where the AGENT is ending up",
+  "role": "destination",
+  "word": "floor",
+  "gold": [
+   0,
+   162,
+   508,
+   510
+  ]
+ },
+ {
+  "id": "actions_test_953::bread",
+  "image": "baking_113.jpg",
+  "src": "../data/swig/images/baking_113.jpg",
+  "phrase": "the thing being created",
+  "role": "food",
+  "word": "bread",
+  "gold": [
+   352,
+   385,
+   440,
+   444
+  ]
+ },
+ {
+  "id": "actions_test_31::speaker",
+  "image": "applauding_36.jpg",
+  "src": "../data/swig/images/applauding_36.jpg",
+  "phrase": "the target of the applause",
+  "role": "addressee",
+  "word": "speaker",
+  "gold": [
+   472,
+   162,
+   538,
+   423
+  ]
+ },
+ {
+  "id": "actions_test_694::man",
+  "image": "tugging_258.jpg",
+  "src": "../data/swig/images/tugging_258.jpg",
+  "phrase": "the one who is tugging (the agent)",
+  "role": "agent",
+  "word": "man",
+  "gold": [
+   137,
+   113,
+   364,
+   725
+  ]
+ },
+ {
+  "id": "actions_test_133::man",
+  "image": "sitting_183.jpg",
+  "src": "../data/swig/images/sitting_183.jpg",
+  "phrase": "the one who is sitting (the agent)",
+  "role": "agent",
+  "word": "man",
+  "gold": [
+   111,
+   82,
+   371,
+   284
+  ]
+ },
+ {
+  "id": "actions_test_604::water",
+  "image": "taxiing_77.jpg",
+  "src": "../data/swig/images/taxiing_77.jpg",
+  "phrase": "the entity that is being taxied on",
+  "role": "ground",
+  "word": "water",
+  "gold": [
+   0,
+   146,
+   766,
+   495
+  ]
+ },
+ {
+  "id": "actions_test_1033::woman",
+  "image": "stumbling_49.jpg",
+  "src": "../data/swig/images/stumbling_49.jpg",
+  "phrase": "the one who is stumbling (the agent)",
+  "role": "agent",
+  "word": "woman",
+  "gold": [
+   206,
+   14,
+   433,
+   235
+  ]
+ },
+ {
+  "id": "actions_test_665::leg",
+  "image": "tripping_61.jpg",
+  "src": "../data/swig/images/tripping_61.jpg",
+  "phrase": "the thing being tripped over",
+  "role": "item",
+  "word": "leg",
+  "gold": [
+   317,
+   430,
+   390,
+   476
+  ]
+ },
+ {
+  "id": "actions_test_543::man",
+  "image": "peeing_180.jpg",
+  "src": "../data/swig/images/peeing_180.jpg",
+  "phrase": "the one who is peeing (the agent)",
+  "role": "agent",
+  "word": "man",
+  "gold": [
+   287,
+   95,
+   471,
+   508
+  ]
+ },
+ {
+  "id": "actions_test_230::hand",
+  "image": "offering_207.jpg",
+  "src": "../data/swig/images/offering_207.jpg",
+  "phrase": "the item being offered",
+  "role": "item",
+  "word": "hand",
+  "gold": [
+   133,
+   452,
+   214,
+   729
+  ]
+ },
+ {
+  "id": "actions_test_543::wall",
+  "image": "peeing_180.jpg",
+  "src": "../data/swig/images/peeing_180.jpg",
+  "phrase": "the entity receiving the pee",
+  "role": "target",
+  "word": "wall",
+  "gold": [
+   0,
+   0,
+   769,
+   476
+  ]
+ },
+ {
+  "id": "actions_test_206::puppy",
+  "image": "nipping_40.jpg",
+  "src": "../data/swig/images/nipping_40.jpg",
+  "phrase": "the one who is nipping (the agent)",
+  "role": "agent",
+  "word": "puppy",
+  "gold": [
+   356,
+   109,
+   771,
+   386
+  ]
+ },
+ {
+  "id": "actions_test_245::person",
+  "image": "unplugging_6.jpg",
+  "src": "../data/swig/images/unplugging_6.jpg",
+  "phrase": "the one who is unplugging (the agent)",
+  "role": "agent",
+  "word": "person",
+  "gold": [
+   0,
+   353,
+   98,
+   495
+  ]
+ },
+ {
+  "id": "actions_test_566::young buck",
+  "image": "punting_141.jpg",
+  "src": "../data/swig/images/punting_141.jpg",
+  "phrase": "the one who is punting (the agent)",
+  "role": "agent",
+  "word": "young buck",
+  "gold": [
+   327,
+   112,
+   410,
+   327
+  ]
+ },
+ {
+  "id": "actions_test_291::water",
+  "image": "floating_74.jpg",
+  "src": "../data/swig/images/floating_74.jpg",
+  "phrase": "the entity in which the float action is taking place",
+  "role": "medium",
+  "word": "water",
+  "gold": [
+   265,
+   165,
+   1083,
+   331
+  ]
+ },
+ {
+  "id": "actions_test_636::helicopter",
+  "image": "landing_82.jpg",
+  "src": "../data/swig/images/landing_82.jpg",
+  "phrase": "the one who is landing (the agent)",
+  "role": "agent",
+  "word": "helicopter",
+  "gold": [
+   233,
+   87,
+   727,
+   368
+  ]
+ },
+ {
+  "id": "actions_test_254::tiller",
+  "image": "tilling_110.jpg",
+  "src": "../data/swig/images/tilling_110.jpg",
+  "phrase": "the entity helping the agent do the Till action",
+  "role": "tool",
+  "word": "tiller",
+  "gold": [
+   203,
+   264,
+   297,
+   501
+  ]
+ },
+ {
+  "id": "actions_test_71::woman",
+  "image": "encouraging_117.jpg",
+  "src": "../data/swig/images/encouraging_117.jpg",
+  "phrase": "the one who is encouraging (the agent)",
+  "role": "agent",
+  "word": "woman",
+  "gold": [
+   160,
+   50,
+   434,
+   435
+  ]
+ },
+ {
+  "id": "actions_test_867::rubbish",
+  "image": "burning_32.jpg",
+  "src": "../data/swig/images/burning_32.jpg",
+  "phrase": "the object being burned",
+  "role": "target",
+  "word": "rubbish",
+  "gold": [
+   108,
+   211,
+   565,
+   374
+  ]
+ },
+ {
+  "id": "actions_test_238::butterfly",
+  "image": "clinging_185.jpg",
+  "src": "../data/swig/images/clinging_185.jpg",
+  "phrase": "the one who is clinging (the agent)",
+  "role": "agent",
+  "word": "butterfly",
+  "gold": [
+   384,
+   109,
+   577,
+   346
+  ]
+ },
+ {
+  "id": "actions_test_266::baby",
+  "image": "nuzzling_4.jpg",
+  "src": "../data/swig/images/nuzzling_4.jpg",
+  "phrase": "the entity being nuzzled by the Agent",
+  "role": "item",
+  "word": "baby",
+  "gold": [
+   15,
+   87,
+   483,
+   509
+  ]
+ },
+ {
+  "id": "actions_test_256::tent",
+  "image": "camping_268.jpg",
+  "src": "../data/swig/images/camping_268.jpg",
+  "phrase": "the item providing shelter",
+  "role": "shelter",
+  "word": "tent",
+  "gold": [
+   451,
+   200,
+   897,
+   405
+  ]
+ },
+ {
+  "id": "actions_test_867::man",
+  "image": "burning_32.jpg",
+  "src": "../data/swig/images/burning_32.jpg",
+  "phrase": "the one who is burning (the agent)",
+  "role": "agent",
+  "word": "man",
+  "gold": [
+   339,
+   173,
+   374,
+   224
+  ]
+ },
+ {
+  "id": "actions_test_667::bridal gown",
+  "image": "buttoning_83.jpg",
+  "src": "../data/swig/images/buttoning_83.jpg",
+  "phrase": "the thing getting buttoned",
+  "role": "item",
+  "word": "bridal gown",
+  "gold": [
+   67,
+   202,
+   264,
+   508
+  ]
+ },
+ {
+  "id": "actions_test_526::helicopter",
+  "image": "plummeting_33.jpg",
+  "src": "../data/swig/images/plummeting_33.jpg",
+  "phrase": "the place where the plummeting event begins",
+  "role": "start",
+  "word": "helicopter",
+  "gold": [
+   198,
+   26,
+   565,
+   170
+  ]
+ },
+ {
+  "id": "actions_test_864::oil tanker",
+  "image": "floating_181.jpg",
+  "src": "../data/swig/images/floating_181.jpg",
+  "phrase": "the one who is floating (the agent)",
+  "role": "agent",
+  "word": "oil tanker",
+  "gold": [
+   222,
+   33,
+   721,
+   330
+  ]
+ },
+ {
+  "id": "actions_test_694::rope",
+  "image": "tugging_258.jpg",
+  "src": "../data/swig/images/tugging_258.jpg",
+  "phrase": "the thing tugged",
+  "role": "item",
+  "word": "rope",
+  "gold": [
+   44,
+   4,
+   287,
+   767
+  ]
+ },
+ {
+  "id": "actions_test_556::bicycle",
+  "image": "commuting_108.jpg",
+  "src": "../data/swig/images/commuting_108.jpg",
+  "phrase": "the vehicle in which the traveler is commuting",
+  "role": "vehicle",
+  "word": "bicycle",
+  "gold": [
+   363,
+   227,
+   502,
+   506
+  ]
+ },
+ {
+  "id": "actions_test_844::woman",
+  "image": "nagging_145.jpg",
+  "src": "../data/swig/images/nagging_145.jpg",
+  "phrase": "the one who is nagging (the agent)",
+  "role": "agent",
+  "word": "woman",
+  "gold": [
+   2,
+   8,
+   429,
+   481
+  ]
+ },
+ {
+  "id": "actions_test_762::man",
+  "image": "sowing_137.jpg",
+  "src": "../data/swig/images/sowing_137.jpg",
+  "phrase": "the one who is sowing (the agent)",
+  "role": "agent",
+  "word": "man",
+  "gold": [
+   134,
+   116,
+   248,
+   449
+  ]
+ },
+ {
+  "id": "actions_test_779::priest",
+  "image": "baptizing_201.jpg",
+  "src": "../data/swig/images/baptizing_201.jpg",
+  "phrase": "the one who is baptizing (the agent)",
+  "role": "agent",
+  "word": "priest",
+  "gold": [
+   91,
+   46,
+   342,
+   324
+  ]
+ },
+ {
+  "id": "actions_test_148::rider",
+  "image": "pedaling_42.jpg",
+  "src": "../data/swig/images/pedaling_42.jpg",
+  "phrase": "the one who is pedaling (the agent)",
+  "role": "agent",
+  "word": "rider",
+  "gold": [
+   267,
+   49,
+   569,
+   420
+  ]
+ },
+ {
+  "id": "actions_test_210::child",
+  "image": "reassuring_119.jpg",
+  "src": "../data/swig/images/reassuring_119.jpg",
+  "phrase": "the one being reassured",
+  "role": "reassured",
+  "word": "child",
+  "gold": [
+   77,
+   53,
+   508,
+   760
+  ]
+ },
+ {
+  "id": "actions_test_256::person",
+  "image": "camping_268.jpg",
+  "src": "../data/swig/images/camping_268.jpg",
+  "phrase": "the one who is camping (the agent)",
+  "role": "agent",
+  "word": "person",
+  "gold": [
+   217,
+   138,
+   450,
+   401
+  ]
+ },
+ {
+  "id": "actions_test_825::limestone",
+  "image": "chiseling_203.jpg",
+  "src": "../data/swig/images/chiseling_203.jpg",
+  "phrase": "the entity being chiseled",
+  "role": "item",
+  "word": "limestone",
+  "gold": [
+   275,
+   279,
+   510,
+   427
+  ]
+ },
+ {
+  "id": "actions_test_463::man",
+  "image": "rowing_230.jpg",
+  "src": "../data/swig/images/rowing_230.jpg",
+  "phrase": "the one who is rowing (the agent)",
+  "role": "agent",
+  "word": "man",
+  "gold": [
+   20,
+   48,
+   661,
+   176
+  ]
+ },
+ {
+  "id": "actions_test_617::woman",
+  "image": "arresting_110.jpg",
+  "src": "../data/swig/images/arresting_110.jpg",
+  "phrase": "the entity being arrested",
+  "role": "suspect",
+  "word": "woman",
+  "gold": [
+   247,
+   162,
+   451,
+   517
+  ]
+ },
+ {
+  "id": "actions_test_621::son",
+  "image": "scolding_54.jpg",
+  "src": "../data/swig/images/scolding_54.jpg",
+  "phrase": "the one being scolded",
+  "role": "victim",
+  "word": "son",
+  "gold": [
+   461,
+   72,
+   735,
+   509
+  ]
+ },
+ {
+  "id": "actions_test_756::female child",
+  "image": "baking_248.jpg",
+  "src": "../data/swig/images/baking_248.jpg",
+  "phrase": "the one who is baking (the agent)",
+  "role": "agent",
+  "word": "female child",
+  "gold": [
+   20,
+   0,
+   504,
+   449
+  ]
+ },
+ {
+  "id": "actions_test_327::material",
+  "image": "kneading_28.jpg",
+  "src": "../data/swig/images/kneading_28.jpg",
+  "phrase": "the object that is being kneaded",
+  "role": "item",
+  "word": "material",
+  "gold": [
+   4,
+   0,
+   939,
+   511
+  ]
+ },
+ {
+  "id": "actions_test_843::tractor",
+  "image": "plowing_120.jpg",
+  "src": "../data/swig/images/plowing_120.jpg",
+  "phrase": "the object being used to do the plowing",
+  "role": "instrument",
+  "word": "tractor",
+  "gold": [
+   137,
+   160,
+   468,
+   593
+  ]
+ },
+ {
+  "id": "actions_test_1022::man",
+  "image": "subduing_22.jpg",
+  "src": "../data/swig/images/subduing_22.jpg",
+  "phrase": "the entity being subdued",
+  "role": "target",
+  "word": "man",
+  "gold": [
+   431,
+   355,
+   848,
+   432
+  ]
+ },
+ {
+  "id": "actions_test_1002::car",
+  "image": "driving_85.jpg",
+  "src": "../data/swig/images/driving_85.jpg",
+  "phrase": "the entity that is being drived, e.g.) car",
+  "role": "item",
+  "word": "car",
+  "gold": [
+   0,
+   3,
+   821,
+   511
+  ]
+ },
+ {
+  "id": "actions_test_130::female",
+  "image": "pedaling_46.jpg",
+  "src": "../data/swig/images/pedaling_46.jpg",
+  "phrase": "the one who is pedaling (the agent)",
+  "role": "agent",
+  "word": "female",
+  "gold": [
+   115,
+   93,
+   460,
+   762
+  ]
+ },
+ {
+  "id": "actions_test_385::fish",
+  "image": "spearing_167.jpg",
+  "src": "../data/swig/images/spearing_167.jpg",
+  "phrase": "the thing that was speared",
+  "role": "victim",
+  "word": "fish",
+  "gold": [
+   124,
+   328,
+   223,
+   402
+  ]
+ },
+ {
+  "id": "actions_test_791::woman",
+  "image": "selling_60.jpg",
+  "src": "../data/swig/images/selling_60.jpg",
+  "phrase": "the entity doing the sell action",
+  "role": "seller",
+  "word": "woman",
+  "gold": [
+   302,
+   29,
+   528,
+   355
+  ]
+ },
+ {
+  "id": "actions_test_133::roof",
+  "image": "sitting_183.jpg",
+  "src": "../data/swig/images/sitting_183.jpg",
+  "phrase": "the thing being sat on",
+  "role": "contact",
+  "word": "roof",
+  "gold": [
+   1,
+   199,
+   511,
+   563
+  ]
+ },
+ {
+  "id": "actions_test_111::man",
+  "image": "ailing_51.jpg",
+  "src": "../data/swig/images/ailing_51.jpg",
+  "phrase": "the entity doing the ail action",
+  "role": "victim",
+  "word": "man",
+  "gold": [
+   0,
+   62,
+   713,
+   512
+  ]
+ },
+ {
+  "id": "actions_test_105::hand",
+  "image": "clapping_55.jpg",
+  "src": "../data/swig/images/clapping_55.jpg",
+  "phrase": "the part of the agent that is clapping",
+  "role": "agentpart",
+  "word": "hand",
+  "gold": [
+   29,
+   23,
+   473,
+   673
+  ]
+ },
+ {
+  "id": "actions_test_335::family",
+  "image": "camping_130.jpg",
+  "src": "../data/swig/images/camping_130.jpg",
+  "phrase": "the one who is camping (the agent)",
+  "role": "agent",
+  "word": "family",
+  "gold": [
+   113,
+   105,
+   647,
+   509
+  ]
+ },
+ {
+  "id": "actions_test_1037::man",
+  "image": "driving_253.jpg",
+  "src": "../data/swig/images/driving_253.jpg",
+  "phrase": "the one who is driving (the agent)",
+  "role": "agent",
+  "word": "man",
+  "gold": [
+   0,
+   89,
+   418,
+   510
+  ]
+ },
+ {
+  "id": "actions_test_148::bicycle",
+  "image": "pedaling_42.jpg",
+  "src": "../data/swig/images/pedaling_42.jpg",
+  "phrase": "the entity being pedaled",
+  "role": "vehicle",
+  "word": "bicycle",
+  "gold": [
+   183,
+   151,
+   737,
+   511
+  ]
+ },
+ {
+  "id": "actions_test_989::man",
+  "image": "subduing_201.jpg",
+  "src": "../data/swig/images/subduing_201.jpg",
+  "phrase": "the entity being subdued",
+  "role": "target",
+  "word": "man",
+  "gold": [
+   128,
+   379,
+   381,
+   767
+  ]
+ },
+ {
+  "id": "actions_test_312::child",
+  "image": "training_104.jpg",
+  "src": "../data/swig/images/training_104.jpg",
+  "phrase": "the entity receiving the training",
+  "role": "student",
+  "word": "child",
+  "gold": [
+   48,
+   129,
+   907,
+   508
+  ]
+ },
+ {
+  "id": "actions_test_351::male",
+  "image": "kicking_269.jpg",
+  "src": "../data/swig/images/kicking_269.jpg",
+  "phrase": "the one who is kicking (the agent)",
+  "role": "agent",
+  "word": "male",
+  "gold": [
+   209,
+   307,
+   366,
+   530
+  ]
+ },
+ {
+  "id": "actions_test_1032::crib",
+  "image": "gnawing_359.jpg",
+  "src": "../data/swig/images/gnawing_359.jpg",
+  "phrase": "the entity being gnawed",
+  "role": "item",
+  "word": "crib",
+  "gold": [
+   0,
+   247,
+   512,
+   767
+  ]
+ },
+ {
+  "id": "actions_test_825::man",
+  "image": "chiseling_203.jpg",
+  "src": "../data/swig/images/chiseling_203.jpg",
+  "phrase": "the one who is chiseling (the agent)",
+  "role": "agent",
+  "word": "man",
+  "gold": [
+   22,
+   0,
+   348,
+   510
+  ]
+ },
+ {
+  "id": "actions_test_371::woman",
+  "image": "reassuring_32.jpg",
+  "src": "../data/swig/images/reassuring_32.jpg",
+  "phrase": "the one being reassured",
+  "role": "reassured",
+  "word": "woman",
+  "gold": [
+   310,
+   315,
+   573,
+   478
+  ]
+ },
+ {
+  "id": "actions_test_469::dog",
+  "image": "sitting_103.jpg",
+  "src": "../data/swig/images/sitting_103.jpg",
+  "phrase": "the one who is sitting (the agent)",
+  "role": "agent",
+  "word": "dog",
+  "gold": [
+   34,
+   19,
+   510,
+   836
+  ]
+ },
+ {
+  "id": "actions_test_732::bird",
+  "image": "releasing_195.jpg",
+  "src": "../data/swig/images/releasing_195.jpg",
+  "phrase": "the person/entity being released",
+  "role": "releaseditem",
+  "word": "bird",
+  "gold": [
+   13,
+   0,
+   572,
+   470
+  ]
+ },
+ {
+  "id": "actions_test_1033::stairs",
+  "image": "stumbling_49.jpg",
+  "src": "../data/swig/images/stumbling_49.jpg",
+  "phrase": "where the agent ends up",
+  "role": "destination",
+  "word": "stairs",
+  "gold": [
+   0,
+   3,
+   709,
+   475
+  ]
+ },
+ {
+  "id": "actions_test_820::label",
+  "image": "checking_288.jpg",
+  "src": "../data/swig/images/checking_288.jpg",
+  "phrase": "the thing checked",
+  "role": "patient",
+  "word": "label",
+  "gold": [
+   128,
+   185,
+   171,
+   235
+  ]
+ },
+ {
+  "id": "actions_test_327::person",
+  "image": "kneading_28.jpg",
+  "src": "../data/swig/images/kneading_28.jpg",
+  "phrase": "the one who is kneading (the agent)",
+  "role": "agent",
+  "word": "person",
+  "gold": [
+   189,
+   0,
+   979,
+   510
+  ]
+ },
+ {
+  "id": "actions_test_823::man",
+  "image": "aiming_123.jpg",
+  "src": "../data/swig/images/aiming_123.jpg",
+  "phrase": "the one who is aiming (the agent)",
+  "role": "agent",
+  "word": "man",
+  "gold": [
+   89,
+   36,
+   308,
+   499
+  ]
+ },
+ {
+  "id": "actions_test_2::certificate",
+  "image": "displaying_251.jpg",
+  "src": "../data/swig/images/displaying_251.jpg",
+  "phrase": "the entity being displayed",
+  "role": "item",
+  "word": "certificate",
+  "gold": [
+   85,
+   292,
+   440,
+   479
+  ]
+ },
+ {
+  "id": "actions_test_636::ground",
+  "image": "landing_82.jpg",
+  "src": "../data/swig/images/landing_82.jpg",
+  "phrase": "where the AGENT ends up",
+  "role": "destination",
+  "word": "ground",
+  "gold": [
+   2,
+   2,
+   907,
+   507
+  ]
+ },
+ {
+  "id": "actions_test_820::man",
+  "image": "checking_288.jpg",
+  "src": "../data/swig/images/checking_288.jpg",
+  "phrase": "the one who is checking (the agent)",
+  "role": "agent",
+  "word": "man",
+  "gold": [
+   55,
+   11,
+   337,
+   508
+  ]
+ },
+ {
+  "id": "actions_test_621::mother",
+  "image": "scolding_54.jpg",
+  "src": "../data/swig/images/scolding_54.jpg",
+  "phrase": "the one who is scolding (the agent)",
+  "role": "agent",
+  "word": "mother",
+  "gold": [
+   7,
+   7,
+   337,
+   511
+  ]
+ },
+ {
+  "id": "actions_test_439::female child",
+  "image": "camping_56.jpg",
+  "src": "../data/swig/images/camping_56.jpg",
+  "phrase": "the one who is camping (the agent)",
+  "role": "agent",
+  "word": "female child",
+  "gold": [
+   42,
+   374,
+   157,
+   479
+  ]
+ },
+ {
+  "id": "actions_test_484::male child",
+  "image": "instructing_216.jpg",
+  "src": "../data/swig/images/instructing_216.jpg",
+  "phrase": "the entity being instructed",
+  "role": "student",
+  "word": "male child",
+  "gold": [
+   1,
+   109,
+   364,
+   507
+  ]
+ },
+ {
+  "id": "actions_test_335::tent",
+  "image": "camping_130.jpg",
+  "src": "../data/swig/images/camping_130.jpg",
+  "phrase": "the item providing shelter",
+  "role": "shelter",
+  "word": "tent",
+  "gold": [
+   157,
+   26,
+   892,
+   447
+  ]
+ },
+ {
+  "id": "actions_test_907::saliva",
+  "image": "spitting_176.jpg",
+  "src": "../data/swig/images/spitting_176.jpg",
+  "phrase": "the item that is being spit",
+  "role": "item",
+  "word": "saliva",
+  "gold": [
+   44,
+   59,
+   286,
+   351
+  ]
+ },
+ {
+  "id": "actions_test_1010::man",
+  "image": "driving_15.jpg",
+  "src": "../data/swig/images/driving_15.jpg",
+  "phrase": "the one who is driving (the agent)",
+  "role": "agent",
+  "word": "man",
+  "gold": [
+   217,
+   45,
+   516,
+   396
+  ]
+ },
+ {
+  "id": "actions_test_810::cow",
+  "image": "milking_226.jpg",
+  "src": "../data/swig/images/milking_226.jpg",
+  "phrase": "the thing being milked",
+  "role": "source",
+  "word": "cow",
+  "gold": [
+   4,
+   0,
+   702,
+   467
+  ]
+ },
+ {
+  "id": "actions_test_566::football",
+  "image": "punting_141.jpg",
+  "src": "../data/swig/images/punting_141.jpg",
+  "phrase": "the thing being punted",
+  "role": "item",
+  "word": "football",
+  "gold": [
+   357,
+   172,
+   386,
+   197
+  ]
+ },
+ {
+  "id": "actions_test_535::man",
+  "image": "coaching_215.jpg",
+  "src": "../data/swig/images/coaching_215.jpg",
+  "phrase": "the one who is coaching (the agent)",
+  "role": "agent",
+  "word": "man",
+  "gold": [
+   227,
+   55,
+   748,
+   511
+  ]
+ },
+ {
+  "id": "actions_test_604::airplane",
+  "image": "taxiing_77.jpg",
+  "src": "../data/swig/images/taxiing_77.jpg",
+  "phrase": "the one who is taxiing (the agent)",
+  "role": "agent",
+  "word": "airplane",
+  "gold": [
+   70,
+   176,
+   713,
+   405
+  ]
+ },
+ {
+  "id": "actions_test_71::female child",
+  "image": "encouraging_117.jpg",
+  "src": "../data/swig/images/encouraging_117.jpg",
+  "phrase": "the entity getting encouraged",
+  "role": "reciever",
+  "word": "female child",
+  "gold": [
+   8,
+   158,
+   277,
+   504
+  ]
+ },
+ {
+  "id": "actions_test_318::curate",
+  "image": "preaching_126.jpg",
+  "src": "../data/swig/images/preaching_126.jpg",
+  "phrase": "the one who is preaching (the agent)",
+  "role": "agent",
+  "word": "curate",
+  "gold": [
+   124,
+   92,
+   384,
+   384
+  ]
+ },
+ {
+  "id": "actions_test_913::ground",
+  "image": "pouncing_170.jpg",
+  "src": "../data/swig/images/pouncing_170.jpg",
+  "phrase": "the entity which is getting pounced onto",
+  "role": "destination",
+  "word": "ground",
+  "gold": [
+   5,
+   4,
+   736,
+   503
+  ]
+ },
+ {
+  "id": "actions_test_463::boat",
+  "image": "rowing_230.jpg",
+  "src": "../data/swig/images/rowing_230.jpg",
+  "phrase": "the entity being rowed (i.e. a boat)",
+  "role": "vehicle",
+  "word": "boat",
+  "gold": [
+   5,
+   161,
+   763,
+   227
+  ]
+ },
+ {
+  "id": "actions_test_590::policeman",
+  "image": "detaining_218.jpg",
+  "src": "../data/swig/images/detaining_218.jpg",
+  "phrase": "the one who is detaining (the agent)",
+  "role": "agent",
+  "word": "policeman",
+  "gold": [
+   4,
+   2,
+   909,
+   508
+  ]
+ },
+ {
+  "id": "actions_test_489::man",
+  "image": "selling_144.jpg",
+  "src": "../data/swig/images/selling_144.jpg",
+  "phrase": "the entity doing the sell action",
+  "role": "seller",
+  "word": "man",
+  "gold": [
+   286,
+   47,
+   531,
+   419
+  ]
+ },
+ {
+  "id": "actions_test_111::arm",
+  "image": "ailing_51.jpg",
+  "src": "../data/swig/images/ailing_51.jpg",
+  "phrase": "the part of the victim that is ailing",
+  "role": "victimpart",
+  "word": "arm",
+  "gold": [
+   434,
+   241,
+   714,
+   445
+  ]
+ },
+ {
+  "id": "actions_test_436::bicycle",
+  "image": "commuting_44.jpg",
+  "src": "../data/swig/images/commuting_44.jpg",
+  "phrase": "the vehicle in which the traveler is commuting",
+  "role": "vehicle",
+  "word": "bicycle",
+  "gold": [
+   171,
+   255,
+   527,
+   477
+  ]
+ },
+ {
+  "id": "actions_test_424::dog",
+  "image": "calming_175.jpg",
+  "src": "../data/swig/images/calming_175.jpg",
+  "phrase": "the entity that is being calmed ( when different than AGENT )",
+  "role": "experiencer",
+  "word": "dog",
+  "gold": [
+   228,
+   79,
+   534,
+   428
+  ]
+ },
+ {
+  "id": "actions_test_732::man",
+  "image": "releasing_195.jpg",
+  "src": "../data/swig/images/releasing_195.jpg",
+  "phrase": "the one who is releasing (the agent)",
+  "role": "agent",
+  "word": "man",
+  "gold": [
+   184,
+   195,
+   661,
+   511
+  ]
+ },
+ {
+  "id": "actions_test_663::hand",
+  "image": "biting_394.jpg",
+  "src": "../data/swig/images/biting_394.jpg",
+  "phrase": "the item that is being bitten",
+  "role": "item",
+  "word": "hand",
+  "gold": [
+   569,
+   271,
+   759,
+   365
+  ]
+ },
+ {
+  "id": "actions_test_770::woman",
+  "image": "kneeling_101.jpg",
+  "src": "../data/swig/images/kneeling_101.jpg",
+  "phrase": "the one who is kneeling (the agent)",
+  "role": "agent",
+  "word": "woman",
+  "gold": [
+   59,
+   21,
+   455,
+   472
+  ]
+ },
+ {
+  "id": "actions_test_526::man",
+  "image": "plummeting_33.jpg",
+  "src": "../data/swig/images/plummeting_33.jpg",
+  "phrase": "the one who is plummeting (the agent)",
+  "role": "agent",
+  "word": "man",
+  "gold": [
+   377,
+   286,
+   410,
+   326
+  ]
+ },
+ {
+  "id": "actions_test_590::man",
+  "image": "detaining_218.jpg",
+  "src": "../data/swig/images/detaining_218.jpg",
+  "phrase": "the one being detained",
+  "role": "victim",
+  "word": "man",
+  "gold": [
+   339,
+   142,
+   852,
+   511
+  ]
+ },
+ {
+  "id": "actions_test_450::man",
+  "image": "phoning_220.jpg",
+  "src": "../data/swig/images/phoning_220.jpg",
+  "phrase": "the one who is phoning (the agent)",
+  "role": "agent",
+  "word": "man",
+  "gold": [
+   31,
+   73,
+   407,
+   770
+  ]
+ },
+ {
+  "id": "actions_test_564::businesswoman",
+  "image": "training_228.jpg",
+  "src": "../data/swig/images/training_228.jpg",
+  "phrase": "the one who is training (the agent)",
+  "role": "agent",
+  "word": "businesswoman",
+  "gold": [
+   264,
+   106,
+   447,
+   343
+  ]
+ },
+ {
+  "id": "actions_test_611::soldier",
+  "image": "boarding_52.jpg",
+  "src": "../data/swig/images/boarding_52.jpg",
+  "phrase": "the one who is boarding (the agent)",
+  "role": "agent",
+  "word": "soldier",
+  "gold": [
+   8,
+   96,
+   459,
+   494
+  ]
+ },
+ {
+  "id": "actions_test_38::male child",
+  "image": "disciplining_110.jpg",
+  "src": "../data/swig/images/disciplining_110.jpg",
+  "phrase": "the one being disciplined",
+  "role": "victim",
+  "word": "male child",
+  "gold": [
+   464,
+   81,
+   724,
+   512
+  ]
+ }
+]
