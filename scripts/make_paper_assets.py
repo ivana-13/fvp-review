@@ -134,7 +134,8 @@ MODEL_KEYS = ["pair_", "blind_", "yes_", "yesrateFoil_", "yesrateCap_", "meanYes
               "sizeCondSmall_", "sizeCondLarge_", "sizeNCondSmall_", "sizeNCondLarge_",
               "extSame_", "extBalFoil_", "extBalFoilCI_", "extBalCond_", "extBalCondCI_", "extSolvFoil_", "extSolvCond_", "extFpFoil_", "extFpCond_",
               "hcIoU_", "hcCentre_", "hcDiscr_", "hcSwap_", "hcBothIoU_", "hcBothCentre_",
-              "nctlOtherNoun_", "nctlOtherE_", "nctlOtherF_", "nctlOtherA_", "nctlBothNoun_", "nctlBothE_", "nctlBothF_", "nctlBothA_", "nctlN_", "wordAgentA_", "wordAgentB_", "wordOtherA_", "wordOtherB_",
+              "nctlOtherNoun_", "nctlOtherE_", "nctlOtherF_", "nctlOtherA_", "nctlBothNoun_", "nctlBothE_", "nctlBothF_", "nctlBothA_", "nctlN_",
+              "anchN_", "anchTarget_", "anchBoth_", "anchCond_", "anchCondCI_", "wordAgentA_", "wordAgentB_", "wordOtherA_", "wordOtherB_",
               "wordBothA_", "wordBothB_", "wordBothNoun_", "wordBothACI_", "wordBothBCI_", "wordFlip_", "verN_", "verParsed_",
               "wordBothC_", "wordBothD_", "wordFlipC_", "wordFlipD_", "wordOtherC_", "wordOtherD_",
               "tbN_", "tbNnn_", "tbBothRole_", "tbBothRoleNN_", "tbBothNoun_", "tbCond_", "tbCondLoc_", "tbTargetRole_", "tbTargetNoun_",
@@ -1347,6 +1348,43 @@ def main() -> None:
         header("@{}lNNNRNNNR@{}", " & \\multicolumn{4}{c}{Other participant hit} & \\multicolumn{4}{c}{Both participants located} \\\\",
                "\\cmidrule(lr){2-5}\\cmidrule(lr){6-9}",
                "Model & noun & \\thead{noun,\\\\long} & \\thead{noun,\\\\framed} & role & noun & \\thead{noun,\\\\long} & \\thead{noun,\\\\framed} & role \\\\")
+        + grouped(rows) + FOOTER, encoding="utf-8")
+
+    # ---------------- Anchored role prompts on the ARO left/right items (scripts/run_anchored.py) ----------------
+    # "the one that is to the left of the <other noun>": the relation plus the other participant, never the target's own noun.
+    rows = []
+    n_spatial = len([1 for it in items.values() if it["subset"] == "aro-spatial"])
+    for key, name in POINTING_MODELS:
+        arec = load_jsonl(OUT / f"anchored_{key}_aro-spatial.jsonl")
+        if len(arec) < n_spatial:
+            continue
+        probes = {r["valse_id"]: r for r in load_jsonl(OUT / f"probes_{key}_aro-spatial.jsonl") if "pointing" in r and r.get("foil")}
+        hits, both, pairs = [], [], []
+        for r in arec:
+            pr = probes.get(r["valse_id"])
+            if not pr:
+                continue
+            h = [d["anchored"]["iou"] >= HIT for d in r["words"].values()]
+            hits += h
+            both.append(all(h))
+            pairs.append((float(pr["foil"]["pair_correct"]), float(all(h))))
+        if not both:
+            continue
+        fc = four_cell([bool(a) for a, _ in pairs], [bool(b) for _, b in pairs])
+        npass = fc["foil+point+"] + fc["foil+point-"]
+        numbers[f"anchN_{key}"] = len(both)
+        numbers[f"anchTarget_{key}"] = pct(sum(hits), len(hits))
+        numbers[f"anchBoth_{key}"] = pct(sum(both), len(both))
+        numbers[f"anchCond_{key}"] = pct(fc["foil+point+"], npass)
+        numbers[f"anchCondCI_{key}"] = ci_pct(pairs, stat_cond)
+        if shown(key):
+            rows.append((key, " & ".join([name, str(numbers.get(f"aroBothNoun_arospatial_{key}", "--")), str(numbers.get(f"aroBothRole_arospatial_{key}", "--")),
+                                           numbers[f"anchTarget_{key}"], numbers[f"anchBoth_{key}"],
+                                           sc(f"{numbers[f'anchCond_{key}']} {numbers[f'anchCondCI_{key}']}")]) + " \\\\"))
+    (TAB / "tab_anchored.tex").write_text(
+        header("@{}lNRRRR@{}", " & \\multicolumn{2}{c}{Both located} & \\multicolumn{2}{c}{Anchored role phrase} & \\\\",
+               "\\cmidrule(lr){2-3}\\cmidrule(lr){4-5}",
+               "Model & by noun & \\thead{generic\\\\role phrase} & \\thead{per\\\\target} & \\thead{both\\\\located} & \\thead{$P(\\mathrm{loc}\\mid\\mathrm{pass})$\\\\anchored} \\\\")
         + grouped(rows) + FOOTER, encoding="utf-8")
 
     # ---------------- numbers.tex (every expected macro, "--" when not available) ----------------

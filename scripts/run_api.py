@@ -67,8 +67,9 @@ def data_url(img: Image.Image) -> str:
 
 
 class Client:
-    def __init__(self, model: str, key: str, reasoning: str, timeout: float = 120.0):
+    def __init__(self, model: str, key: str, reasoning: str, timeout: float = 120.0, min_max_tokens: int = 0):
         self.model, self.key, self.reasoning, self.timeout = model, key, reasoning, timeout
+        self.min_max_tokens = min_max_tokens  # models whose reasoning tokens count against max_tokens need head-room
         self.session = requests.Session()
 
     def ask(self, prompt: str, img: Image.Image | None, max_tokens: int) -> str:
@@ -76,7 +77,7 @@ class Client:
         if img is not None:
             content = [{"type": "image_url", "image_url": {"url": data_url(img)}}] + content
         body = {"model": self.model, "messages": [{"role": "user", "content": content}],
-                "max_tokens": max_tokens, "temperature": 0}
+                "max_tokens": max(max_tokens, self.min_max_tokens), "temperature": 0}
         if self.reasoning:
             body["reasoning"] = {"effort": self.reasoning}
         last = ""
@@ -267,6 +268,7 @@ def main() -> None:
     ap.add_argument("--reasoning", default="low", help="OpenRouter reasoning effort: low, medium, high, or '' for the default")
     ap.add_argument("--finalize", action="store_true")
     ap.add_argument("--no-controls", action="store_true")
+    ap.add_argument("--min-max-tokens", type=int, default=0, help="floor for max_tokens (Claude counts its thinking inside it; use 2048)")
     args = ap.parse_args()
     if args.finalize:
         finalize(args.tag)
@@ -279,7 +281,7 @@ def main() -> None:
     pp, cp = OUT / f"probes_{args.tag}_actant-swap.jsonl", OUT / f"controls_{args.tag}_actant-swap.jsonl"
     done_p = {json.loads(l)["valse_id"] for l in open(pp, encoding="utf-8")} if pp.exists() else set()
     done_c = {json.loads(l)["valse_id"] for l in open(cp, encoding="utf-8")} if cp.exists() else set()
-    cli = Client(args.model, read_key(), args.reasoning)
+    cli = Client(args.model, read_key(), args.reasoning, min_max_tokens=args.min_max_tokens)
     lock = threading.Lock()
     todo = [it for it in items if it["valse_id"] not in done_p or (not args.no_controls and it["valse_id"] not in done_c)]
     print(f"{args.model}: {len(items)} sampled items, {len(todo)} to run, {args.workers} workers")

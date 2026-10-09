@@ -66,13 +66,14 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--tag", default="gemini31pro")
     ap.add_argument("--name", default="Gemini 3.1 Pro (API)")
+    ap.add_argument("--more", nargs="*", default=[], help="further API models as tag=name, e.g. claudeopus55='Claude Opus 5.5 (API)'")
     ap.add_argument("--n", type=int, default=200)
     ap.add_argument("--seed", type=int, default=0)
     args = ap.parse_args()
     items = [json.loads(l) for l in open(ROOT / "data/joined/actant-swap.valid.jsonl", encoding="utf-8")]
     ids = {it["valse_id"] for it in sample_items(items, args.n, args.seed)}
     rows, stats = [], {}
-    for key, name in OPEN + [(args.tag, args.name)]:
+    for key, name in OPEN + [(args.tag, args.name)] + [tuple(m.split("=", 1)) for m in args.more]:
         line, st = row(key, name, ids)
         if line:
             rows.append((key, line)); stats[key] = st

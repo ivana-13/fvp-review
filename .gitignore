@@ -31,3 +31,6 @@ annotation/*.json
 paper/figures/candidates_*/
 annotation/*.zip
 annotation/*_bundle/
+
+# review copy: the per-item files under outputs/ are part of the copy
+!outputs/*

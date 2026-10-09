@@ -19,13 +19,16 @@ swaps on Visual Genome) with a role-localisation probe on the same items, for ni
 | `scripts/make_annotation_tool.py`, `scripts/score_annotations.py` | human ceiling on the role prompts |
 | `scripts/analyze.py`, `scripts/make_paper_assets.py` | per-model summaries; every table and number macro of the paper |
 | `scripts/make_release.py`, `scripts/score_release.py`, `release/` | the released item files and a scorer for new models |
+| `scripts/run_anchored.py` | anchored role prompts on the ARO left/right items |
 | `data/joined/*.valid.jsonl`, `data/gold_check.jsonl` | the joined items (captions, foils, roles, gold boxes) and the detector check |
-| `outputs/summary_*.md` and small per-item files | summaries per model; external-LM likelihoods, token counts, noun controls |
+| `outputs/summary_*.md` and small per-item files | summaries per model; external-LM likelihoods, token counts, noun controls, anchored left/right prompts, and the per-item outputs of the two API models (`gemini31pro`, `claudeopus55`), which are not in `release/` |
 | `annotation/` | the human-ceiling page and annotations, the second annotator's gold-check verdicts |
 | `tests/` | unit tests (`uv run pytest`) |
 
-Per-item model outputs (probes, controls, verification) are large and not included here; `release/*.jsonl` carries
-every model's per-item outcomes, and `outputs/summary_*.md` the aggregated results.
+Per-item outputs of the open models (probes, controls, verification) are large and not included here; `release/*.jsonl`
+carries every open model's per-item outcomes, and `outputs/summary_*.md` the aggregated results. The API models' per-item
+files (`outputs/probes_*` and `outputs/controls_*` for `gemini31pro` and `claudeopus55`) are included, since they cannot
+be regenerated offline.
 
 ## Setup
 
