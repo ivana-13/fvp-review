@@ -1,0 +1,33 @@
+# environment and caches
+.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+# large public data (see README "Data sources"); derived joins are rebuilt by scripts/prepare_valse_swig.py
+data/swig/images/
+data/swig/*.json
+data/aro/*
+!data/aro/visual_genome_relation.json
+!data/aro/image_list.txt
+data/joined/*
+!data/joined/*.valid.jsonl
+# per-item run outputs are large and still growing; summaries and the gold-check sheet are kept
+outputs/*
+!outputs/summary_*.md
+!outputs/gold_flagged.csv
+# LaTeX build products (main.pdf is kept)
+paper/build/
+paper/*.log
+paper/*.blg
+paper/*.aux
+paper/*.bbl
+paper/foils-vs-pointing-overleaf.zip
+paper/figures/candidates/
+paper/figures/candidates_incorrect/
+annotation/*.json
+
+# editor settings and the example-candidate galleries
+.vscode/
+paper/figures/candidates_*/
+annotation/*.zip
+annotation/*_bundle/

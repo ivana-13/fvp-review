@@ -1,0 +1,233 @@
+sheet,tile,valse_id,image_file,caption,word,role,flag,iou_own,iou_other,verdict
+1,1,actions_test_12,arching_231.jpg,A man arches his back.,man,agent,ok,0.86,0.43,ok
+1,1,actions_test_12,arching_231.jpg,A man arches his back.,back,bodypart,swapped,0.44,0.87,ok
+1,2,actions_test_13,rehabilitating_199.jpg,A woman rehabilitates a person.,woman,agent,ok,0.99,0.06,swapped
+1,2,actions_test_13,rehabilitating_199.jpg,A woman rehabilitates a person.,person,item,swapped,0.06,0.99,swapped
+1,3,actions_test_69,encouraging_19.jpg,A parent encourages such a girl.,parent,agent,ok,0.56,0.13,ok
+1,3,actions_test_69,encouraging_19.jpg,A parent encourages such a girl.,girl,reciever,swapped,0.12,0.56,swapped
+1,4,actions_test_77,paying_168.jpg,A man pays a cashier.,man,agent,swapped,0.02,0.99,swapped
+1,4,actions_test_77,paying_168.jpg,A man pays a cashier.,cashier,seller,ok,0.99,0.01,swapped
+1,5,actions_test_93,encouraging_174.jpg,A woman encourages a male child.,woman,agent,swapped,0.48,0.95,swapped
+1,5,actions_test_93,encouraging_174.jpg,A woman encourages a male child.,male child,reciever,ok,0.94,0.48,ok
+1,6,actions_test_106,arching_3.jpg,A cat arches over the spinal column.,cat,agent,ok,0.98,0.24,ok
+1,6,actions_test_106,arching_3.jpg,A cat arches over the spinal column.,spinal column,bodypart,swapped,0.24,0.98,swapped
+1,7,actions_test_107,calling_227.jpg,A man calls for a land line.,man,agent,ok,0.95,0.3,ok
+1,7,actions_test_107,calling_227.jpg,A man calls for a land line.,land line,tool,swapped,0.27,0.84,swapped
+1,8,actions_test_117,asking_51.jpg,A young buck asks for a girl.,young buck,agent,swapped,0,0.97,swapped
+1,8,actions_test_117,asking_51.jpg,A young buck asks for a girl.,girl,addressee,ok,0.97,0,ok
+1,9,actions_test_134,stinging_178.jpg,A bee stings a person.,bee,agent,ok,0.89,0.44,ok
+1,9,actions_test_134,stinging_178.jpg,A bee stings a person.,person,victim,swapped,0.44,0.89,swapped
+1,10,actions_test_144,calling_134.jpg,A woman calls for a land line.,woman,agent,ok,0.97,0.39,ok
+1,10,actions_test_144,calling_134.jpg,A woman calls for a land line.,land line,tool,swapped,0.45,0.76,other
+1,11,actions_test_145,calling_148.jpg,A woman calls for a land line.,woman,agent,ok,0.97,0.3,ok
+1,11,actions_test_145,calling_148.jpg,A woman calls for a land line.,land line,tool,swapped,0.3,0.95,swapped
+1,12,actions_test_162,teaching_202.jpg,A woman teaches people.,woman,teacher,ok,0.99,0.04,ok
+1,12,actions_test_162,teaching_202.jpg,A woman teaches people.,people,student,swapped,0.04,0.99,swapped
+1,13,actions_test_169,teaching_238.jpg,A coach teaches a student.,coach,teacher,ok,0.99,0.24,ok
+1,13,actions_test_169,teaching_238.jpg,A coach teaches a student.,student,student,swapped,0.24,0.98,swapped
+1,14,actions_test_176,braiding_180.jpg,A person braids their hair.,person,agent,swapped,0.31,0.96,swapped
+1,14,actions_test_176,braiding_180.jpg,A person braids their hair.,hair,item,mismatch,0,0,swapped
+1,15,actions_test_216,training_180.jpg,A man trains people.,man,agent,ok,0.92,0,ok
+1,15,actions_test_216,training_180.jpg,A man trains people.,people,student,swapped,0,0.92,swapped
+1,16,actions_test_232,training_257.jpg,A woman trains people.,woman,agent,swapped,0,0.61,swapped
+1,16,actions_test_232,training_257.jpg,A woman trains people.,people,student,mismatch,0,0,ok
+1,17,actions_test_249,providing_246.jpg,A nurse provides for a patient.,nurse,agent,ok,0.99,0.25,ok
+1,17,actions_test_249,providing_246.jpg,A nurse provides for a patient.,patient,recipient,swapped,0.25,0.99,swapped
+1,18,actions_test_250,providing_141.jpg,A nurse provides for a patient.,nurse,agent,ok,0.97,0.2,ok
+1,18,actions_test_250,providing_141.jpg,A nurse provides for a patient.,patient,recipient,swapped,0.2,0.98,swapped
+1,19,actions_test_255,asking_129.jpg,A nurse asks a patient.,nurse,agent,ok,0.98,0.12,ok
+1,19,actions_test_255,asking_129.jpg,A nurse asks a patient.,patient,addressee,swapped,0.12,0.98,swapped
+1,20,actions_test_266,nuzzling_4.jpg,A mother nuzzles her baby.,mother,agent,swapped,0.42,0.95,other
+1,20,actions_test_266,nuzzling_4.jpg,A mother nuzzles her baby.,baby,item,ok,0.95,0.42,other
+2,21,actions_test_285,rehabilitating_247.jpg,A man rehabilitates his leg.,man,agent,swapped,0.33,0.51,other
+2,21,actions_test_285,rehabilitating_247.jpg,A man rehabilitates his leg.,leg,item,mismatch,0.04,0.29,other
+2,22,actions_test_291,floating_74.jpg,A woman floats on water.,woman,agent,ok,0.91,0.42,ok
+2,22,actions_test_291,floating_74.jpg,A woman floats on water.,water,medium,swapped,0.36,0.69,ok
+2,23,actions_test_310,lecturing_284.jpg,A woman lectures people.,woman,agent,ok,0.96,0.3,ok
+2,23,actions_test_310,lecturing_284.jpg,A woman lectures people.,people,audience,swapped,0.3,0.96,swapped
+2,24,actions_test_311,lecturing_76.jpg,A woman lectures people.,woman,agent,ok,0.97,0.08,ok
+2,24,actions_test_311,lecturing_76.jpg,A woman lectures people.,people,audience,swapped,0.08,0.97,swapped
+2,25,actions_test_315,asking_52.jpg,A policeman asks about the people.,policeman,agent,swapped,0.29,0.95,swapped
+2,25,actions_test_315,asking_52.jpg,A policeman asks about the people.,people,addressee,swapped,0.27,0.98,swapped
+2,26,actions_test_317,preaching_190.jpg,A curate preaches people.,curate,agent,mismatch,0.5,0.4,ok
+2,26,actions_test_317,preaching_190.jpg,A curate preaches people.,people,addressee,swapped,0.41,0.52,swapped
+2,27,actions_test_328,lecturing_177.jpg,A professor lectures people.,professor,agent,ok,0.97,0.1,ok
+2,27,actions_test_328,lecturing_177.jpg,A professor lectures people.,people,audience,swapped,0.1,0.97,swapped
+2,28,actions_test_332,coaching_7.jpg,A man coaches people.,man,agent,ok,0.91,0.19,ok
+2,28,actions_test_332,coaching_7.jpg,A man coaches people.,people,student,swapped,0.19,0.92,swapped
+2,29,actions_test_333,sewing_61.jpg,A person sews the burlap.,person,agent,swapped,0.19,0.99,swapped
+2,29,actions_test_333,sewing_61.jpg,A person sews the burlap.,burlap,item,ok,0.99,0.19,ok
+2,30,actions_test_338,speaking_248.jpg,A man speaks to an audience.,man,agent,ok,0.98,0.04,ok
+2,30,actions_test_338,speaking_248.jpg,A man speaks to an audience.,audience,coagent,swapped,0.04,0.98,other
+2,31,actions_test_339,scolding_130.jpg,A parent scolds such a child.,parent,agent,swapped,0.47,0.97,swapped
+2,31,actions_test_339,scolding_130.jpg,A parent scolds such a child.,child,victim,ok,0.97,0.48,ok
+2,32,actions_test_352,pressing_292.jpg,A man presses the interface.,man,agent,ok,0.99,0.16,ok
+2,32,actions_test_352,pressing_292.jpg,A man presses the interface.,interface,item,swapped,0.1,0.63,swapped
+2,33,actions_test_363,puckering_200.jpg,A statue puckers its lip.,statue,agent,ok,0.98,0.09,ok
+2,33,actions_test_363,puckering_200.jpg,A statue puckers its lip.,lip,agentpart,swapped,0.09,0.97,other
+2,34,actions_test_366,lecturing_257.jpg,A professor lectures as a student.,professor,agent,ok,0.93,0.03,ok
+2,34,actions_test_366,lecturing_257.jpg,A professor lectures as a student.,student,audience,swapped,0.02,0.94,swapped
+2,35,actions_test_367,lecturing_144.jpg,A professor lectures as a student.,professor,agent,ok,0.74,0.01,ok
+2,35,actions_test_367,lecturing_144.jpg,A professor lectures as a student.,student,audience,swapped,0.01,0.76,swapped
+2,36,actions_test_399,gnawing_65.jpg,A dog gnaws a bone.,dog,agent,ok,0.98,0.27,ok
+2,36,actions_test_399,gnawing_65.jpg,A dog gnaws a bone.,bone,item,swapped,0.27,0.99,swapped
+2,37,actions_test_400,gnawing_380.jpg,A dog gnaws a bone.,dog,agent,ok,0.93,0.35,ok
+2,37,actions_test_400,gnawing_380.jpg,A dog gnaws a bone.,bone,item,swapped,0.36,0.94,swapped
+2,38,actions_test_409,communicating_309.jpg,A man communicates with the people.,man,agent,ok,0.97,0.19,ok
+2,38,actions_test_409,communicating_309.jpg,A man communicates with the people.,people,adressee,swapped,0.19,0.96,swapped
+2,39,actions_test_423,winking_13.jpg,A man winks at a woman.,man,agent,ok,0.98,0.04,ok
+2,39,actions_test_423,winking_13.jpg,A man winks at a woman.,woman,addressee,swapped,0.04,0.98,swapped
+2,40,actions_test_428,disciplining_133.jpg,A man disciplines a male child.,man,agent,ok,0.98,0.12,ok
+2,40,actions_test_428,disciplining_133.jpg,A man disciplines a male child.,male child,victim,swapped,0.12,0.98,swapped
+3,41,actions_test_430,imitating_145.jpg,A child imitates such a woman.,child,agent,ok,0.98,0.34,ok
+3,41,actions_test_430,imitating_145.jpg,A child imitates such a woman.,woman,model,swapped,0.34,0.98,swapped
+3,42,actions_test_435,emerging_9.jpg,A mosquito emerges from an exoskeleton.,mosquito,agent,ok,0.94,0.04,ok
+3,42,actions_test_435,emerging_9.jpg,A mosquito emerges from an exoskeleton.,exoskeleton,source,swapped,0.04,0.93,other
+3,43,actions_test_458,stretching_270.jpg,A lion stretches its back.,lion,agent,ok,0.96,0.16,ok
+3,43,actions_test_458,stretching_270.jpg,A lion stretches its back.,back,item,swapped,0.16,0.97,other
+3,44,actions_test_469,sitting_103.jpg,A dog sits on a floor.,dog,agent,ok,0.99,0.08,ok
+3,44,actions_test_469,sitting_103.jpg,A dog sits on a floor.,floor,contact,swapped,0.08,0.99,other
+3,45,actions_test_471,foraging_51.jpg,An otter forages for the fish.,otter,agent,ok,0.9,0.07,ok
+3,45,actions_test_471,foraging_51.jpg,An otter forages for the fish.,fish,item,swapped,0.07,0.9,other
+3,46,actions_test_475,training_187.jpg,A businesswoman trains a customer.,businesswoman,agent,ok,0.97,0.49,ok
+3,46,actions_test_475,training_187.jpg,A businesswoman trains a customer.,customer,student,swapped,0.49,0.97,swapped
+3,47,actions_test_484,instructing_216.jpg,A man instructs a male child.,man,agent,ok,0.97,0.16,ok
+3,47,actions_test_484,instructing_216.jpg,A man instructs a male child.,male child,student,swapped,0.16,0.97,swapped
+3,48,actions_test_500,training_188.jpg,A man trains a woman.,man,agent,swapped,0.42,0.95,other
+3,48,actions_test_500,training_188.jpg,A man trains a woman.,woman,student,ok,0.96,0.43,ok
+3,49,actions_test_511,hunting_23.jpg,A cheetah hunts a deer.,cheetah,agent,swapped,0.39,0.93,swapped
+3,49,actions_test_511,hunting_23.jpg,A cheetah hunts a deer.,deer,hunted,ok,0.93,0.38,ok
+3,50,actions_test_514,instructing_82.jpg,A woman instructs a passenger.,woman,agent,ok,0.98,0.42,ok
+3,50,actions_test_514,instructing_82.jpg,A woman instructs a passenger.,passenger,student,swapped,0.42,0.98,swapped
+3,51,actions_test_515,complaining_65.jpg,A female child complains to a woman.,female child,agent,ok,0.99,0.03,ok
+3,51,actions_test_515,complaining_65.jpg,A female child complains to a woman.,woman,listener,swapped,0.03,0.99,swapped
+3,52,actions_test_516,peeing_250.jpg,A statue pees on earth.,statue,agent,ok,0.97,0.09,ok
+3,52,actions_test_516,peeing_250.jpg,A statue pees on earth.,earth,target,swapped,0.1,0.98,swapped
+3,53,actions_test_520,nipping_147.jpg,A bird nips at the fish.,bird,agent,ok,0.99,0.17,ok
+3,53,actions_test_520,nipping_147.jpg,A bird nips at the fish.,fish,item,swapped,0.17,0.99,swapped
+3,54,actions_test_528,peeing_234.jpg,A cat pees over a Kitty Litter.,cat,agent,ok,0.98,0.03,ok
+3,54,actions_test_528,peeing_234.jpg,A cat pees over a Kitty Litter.,Kitty Litter,target,swapped,0.03,0.98,swapped
+3,55,actions_test_529,coaching_198.jpg,A man coaches a male child.,man,agent,ok,0.82,0.38,ok
+3,55,actions_test_529,coaching_198.jpg,A man coaches a male child.,male child,student,swapped,0.38,0.82,swapped
+3,56,actions_test_530,chasing_0.jpg,A buck chases after the deer.,buck,agent,ok,0.94,0,ok
+3,56,actions_test_530,chasing_0.jpg,A buck chases after the deer.,deer,chasee,swapped,0,0.94,swapped
+3,57,actions_test_534,leading_101.jpg,A soldier leads a troop.,soldier,agent,ok,0.68,0.3,ok
+3,57,actions_test_534,leading_101.jpg,A soldier leads a troop.,troop,follower,swapped,0.3,0.69,swapped
+3,58,actions_test_537,arresting_186.jpg,A policeman arrests a man.,policeman,agent,ok,0.98,0.25,ok
+3,58,actions_test_537,arresting_186.jpg,A policeman arrests a man.,man,suspect,swapped,0.25,0.97,other
+3,59,actions_test_538,arresting_237.jpg,A policeman arrests a man.,policeman,agent,ok,0.93,0.16,ok
+3,59,actions_test_538,arresting_237.jpg,A policeman arrests a man.,man,suspect,swapped,0.17,0.91,swapped
+3,60,actions_test_539,arresting_108.jpg,A policeman arrests a man.,policeman,agent,ok,0.98,0.25,ok
+3,60,actions_test_539,arresting_108.jpg,A policeman arrests a man.,man,suspect,swapped,0.25,0.98,swapped
+4,61,actions_test_559,instructing_203.jpg,A man instructs his people.,man,agent,ok,0.97,0.34,ok
+4,61,actions_test_559,instructing_203.jpg,A man instructs his people.,people,student,swapped,0.34,0.96,swapped
+4,62,actions_test_564,training_228.jpg,A businesswoman trains a colleague.,businesswoman,agent,ok,0.96,0.18,ok
+4,62,actions_test_564,training_228.jpg,A businesswoman trains a colleague.,colleague,student,swapped,0.18,0.95,swapped
+4,63,actions_test_572,miming_141.jpg,A mime mimes happiness.,mime,agent,ok,0.97,0.01,ok
+4,63,actions_test_572,miming_141.jpg,A mime mimes happiness.,happiness,imitation,swapped,0.01,0.97,swapped
+4,64,actions_test_579,ducking_68.jpg,A man ducks behind a door.,man,agent,ok,0.93,0.02,ok
+4,64,actions_test_579,ducking_68.jpg,A man ducks behind a door.,door,blow,swapped,0.03,0.71,ok
+4,65,actions_test_580,talking_170.jpg,An artist talks to a crowd.,artist,agent,ok,0.95,0.07,ok
+4,65,actions_test_580,talking_170.jpg,An artist talks to a crowd.,crowd,listener,swapped,0.07,0.96,swapped
+4,66,actions_test_583,communicating_288.jpg,A woman communicates with a man.,woman,agent,ok,0.99,0.01,ok
+4,66,actions_test_583,communicating_288.jpg,A woman communicates with a man.,man,adressee,swapped,0.01,0.99,swapped
+4,67,actions_test_588,shushing_24.jpg,A man shushes people.,man,agent,mismatch,0,0,other
+4,67,actions_test_588,shushing_24.jpg,A man shushes people.,people,target,swapped,0.05,0.77,other
+4,68,actions_test_601,hunting_238.jpg,A dog hunts a rabbit.,dog,agent,ok,0.97,0,ok
+4,68,actions_test_601,hunting_238.jpg,A dog hunts a rabbit.,rabbit,hunted,swapped,0,0.97,swapped
+4,69,actions_test_608,reassuring_15.jpg,A radiologist reassures a patient.,radiologist,agent,ok,0.84,0.23,ok
+4,69,actions_test_608,reassuring_15.jpg,A radiologist reassures a patient.,patient,reassured,swapped,0.23,0.84,swapped
+4,70,actions_test_628,detaining_124.jpg,A watchman detains the man.,watchman,agent,mismatch,0,0.06,ok
+4,70,actions_test_628,detaining_124.jpg,A watchman detains the man.,man,victim,swapped,0.07,0.98,swapped
+4,71,actions_test_660,nipping_162.jpg,A lion cub nips at the lioness.,lion cub,agent,swapped,0.36,0.97,swapped
+4,71,actions_test_660,nipping_162.jpg,A lion cub nips at the lioness.,lioness,item,ok,0.97,0.36,ok
+4,72,actions_test_667,buttoning_83.jpg,A woman buttons up a bridal gown.,woman,agent,swapped,0.31,0.66,other
+4,72,actions_test_667,buttoning_83.jpg,A woman buttons up a bridal gown.,bridal gown,item,ok,0.94,0.28,other
+4,73,actions_test_677,complaining_169.jpg,A patient complains to a doctor.,patient,agent,swapped,0.01,0.65,swapped
+4,73,actions_test_677,complaining_169.jpg,A patient complains to a doctor.,doctor,listener,ok,0.65,0.01,ok
+4,74,actions_test_680,complaining_1.jpg,A man complains to a waiter.,man,agent,swapped,0,0.94,swapped
+4,74,actions_test_680,complaining_1.jpg,A man complains to a waiter.,waiter,listener,ok,0.94,0,ok
+4,75,actions_test_696,chasing_233.jpg,An antelope chases a rabbit.,antelope,agent,swapped,0,0.91,swapped
+4,75,actions_test_696,chasing_233.jpg,An antelope chases a rabbit.,rabbit,chasee,ok,0.9,0,ok
+4,76,actions_test_702,urinating_113.jpg,A soldier urinates on the ground.,soldier,agent,mismatch,0,0,ok
+4,76,actions_test_702,urinating_113.jpg,A soldier urinates on the ground.,ground,target,swapped,0.05,0.69,other
+4,77,actions_test_708,interviewing_225.jpg,A reporter interviews a policeman.,reporter,agent,swapped,0.02,0.96,swapped
+4,77,actions_test_708,interviewing_225.jpg,A reporter interviews a policeman.,policeman,interviewee,ok,0.96,0.02,ok
+4,78,actions_test_720,chasing_21.jpg,A man chases after a woman.,man,agent,swapped,0,0.98,swapped
+4,78,actions_test_720,chasing_21.jpg,A man chases after a woman.,woman,chasee,ok,0.98,0,ok
+4,79,actions_test_739,preaching_79.jpg,A preacher preaches people.,preacher,agent,ok,0.89,0.17,ok
+4,79,actions_test_739,preaching_79.jpg,A preacher preaches people.,people,addressee,swapped,0.17,0.89,swapped
+4,80,actions_test_740,preaching_125.jpg,A preacher preaches people.,preacher,agent,ok,0.98,0.12,ok
+4,80,actions_test_740,preaching_125.jpg,A preacher preaches people.,people,addressee,swapped,0.12,0.98,swapped
+5,81,actions_test_742,bandaging_18.jpg,A doctor bandages a woman.,doctor,agent,mismatch,0.05,0.29,ok
+5,81,actions_test_742,bandaging_18.jpg,A doctor bandages a woman.,woman,victim,swapped,0.13,0.97,swapped
+5,82,actions_test_744,handcuffing_71.jpg,A woman handcuffs a man.,woman,agent,ok,0.98,0.23,ok
+5,82,actions_test_744,handcuffing_71.jpg,A woman handcuffs a man.,man,victim,swapped,0.23,0.98,swapped
+5,83,actions_test_748,coaching_178.jpg,A man coaches a child.,man,agent,ok,0.97,0.34,ok
+5,83,actions_test_748,coaching_178.jpg,A man coaches a child.,child,student,swapped,0.34,0.98,swapped
+5,84,actions_test_754,interrogating_110.jpg,A soldier interrogates a man.,soldier,agent,ok,0.92,0,ok
+5,84,actions_test_754,interrogating_110.jpg,A soldier interrogates a man.,man,addressee,swapped,0,0.93,swapped
+5,85,actions_test_755,spitting_124.jpg,A man spits out his beverage.,man,agent,ok,0.98,0.02,ok
+5,85,actions_test_755,spitting_124.jpg,A man spits out his beverage.,beverage,item,swapped,0.02,0.98,swapped
+5,86,actions_test_783,deflecting_97.jpg,A combatant deflects the blow.,combatant,agent,swapped,0.36,0.99,swapped
+5,86,actions_test_783,deflecting_97.jpg,A combatant deflects the blow.,blow,deflecteditem,ok,0.98,0.37,swapped
+5,87,actions_test_786,complaining_189.jpg,A man complains to a doctor.,man,agent,ok,0.89,0.12,ok
+5,87,actions_test_786,complaining_189.jpg,A man complains to a doctor.,doctor,listener,swapped,0.12,0.9,swapped
+5,88,actions_test_804,instructing_200.jpg,A man instructs a drummer.,man,agent,ok,0.96,0.24,ok
+5,88,actions_test_804,instructing_200.jpg,A man instructs a drummer.,drummer,student,swapped,0.24,0.94,swapped
+5,89,actions_test_808,gnawing_394.jpg,A dog gnaws on a stick.,dog,agent,ok,0.99,0.03,ok
+5,89,actions_test_808,gnawing_394.jpg,A dog gnaws on a stick.,stick,item,swapped,0.03,0.99,swapped
+5,90,actions_test_811,complaining_31.jpg,An old man complains to a doctor.,old man,agent,swapped,0,0.92,ok
+5,90,actions_test_811,complaining_31.jpg,An old man complains to a doctor.,doctor,listener,ok,0.91,0,swapped
+5,91,actions_test_830,hunting_40.jpg,A lion hunts an animal.,lion,agent,ok,0.93,0.26,ok
+5,91,actions_test_830,hunting_40.jpg,A lion hunts an animal.,animal,hunted,swapped,0.25,0.92,swapped
+5,92,actions_test_837,arresting_14.jpg,A policeman arrests such a man.,policeman,agent,swapped,0.32,0.95,swapped
+5,92,actions_test_837,arresting_14.jpg,A policeman arrests such a man.,man,suspect,ok,0.92,0.3,ok
+5,93,actions_test_839,arresting_213.jpg,A policeman arrests such a man.,policeman,agent,ok,0.98,0.46,other
+5,93,actions_test_839,arresting_213.jpg,A policeman arrests such a man.,man,suspect,swapped,0.46,0.97,other
+5,94,actions_test_840,arresting_111.jpg,A policeman arrests such a man.,policeman,agent,ok,0.9,0.36,ok
+5,94,actions_test_840,arresting_111.jpg,A policeman arrests such a man.,man,suspect,swapped,0.36,0.91,swapped
+5,95,actions_test_848,apprehending_155.jpg,A policeman apprehends a man.,policeman,agent,ok,0.94,0.25,ok
+5,95,actions_test_848,apprehending_155.jpg,A policeman apprehends a man.,man,victim,swapped,0.25,0.94,swapped
+5,96,actions_test_849,apprehending_192.jpg,A policeman apprehends a man.,policeman,agent,ok,0.5,0.15,ok
+5,96,actions_test_849,apprehending_192.jpg,A policeman apprehends a man.,man,victim,swapped,0.15,0.5,swapped
+5,97,actions_test_850,interviewing_202.jpg,A reporter interviews a couple.,reporter,agent,swapped,0,0.7,swapped
+5,97,actions_test_850,interviewing_202.jpg,A reporter interviews a couple.,couple,interviewee,ok,0.6,0.5,swapped
+5,98,actions_test_861,licking_291.jpg,A cow licks its fur.,cow,agent,ok,0.99,0.01,ok
+5,98,actions_test_861,licking_291.jpg,A cow licks its fur.,fur,item,swapped,0.01,0.98,other
+5,99,actions_test_868,hunting_139.jpg,A hunter hunts a mammoth.,hunter,agent,ok,0.54,0,ok
+5,99,actions_test_868,hunting_139.jpg,A hunter hunts a mammoth.,mammoth,hunted,swapped,0,0.54,swapped
+5,100,actions_test_872,browsing_49.jpg,A woman browses the apparel.,woman,agent,ok,0.93,0.09,ok
+5,100,actions_test_872,browsing_49.jpg,A woman browses the apparel.,apparel,goalitem,swapped,0.1,0.74,swapped
+6,101,actions_test_874,kneeling_30.jpg,A woman kneels on the floor.,woman,agent,ok,0.99,0.17,ok
+6,101,actions_test_874,kneeling_30.jpg,A woman kneels on the floor.,floor,contact,swapped,0.21,0.77,swapped
+6,102,actions_test_897,training_270.jpg,A man trains with a colleague.,man,agent,ok,0.96,0.27,ok
+6,102,actions_test_897,training_270.jpg,A man trains with a colleague.,colleague,student,swapped,0.27,0.96,swapped
+6,103,actions_test_928,emerging_69.jpg,A wasp emerges from a nest.,wasp,agent,ok,0.94,0.26,ok
+6,103,actions_test_928,emerging_69.jpg,A wasp emerges from a nest.,nest,source,swapped,0.26,0.94,swapped
+6,104,actions_test_931,landing_31.jpg,An airplane lands on a runway.,airplane,agent,ok,0.98,0,ok
+6,104,actions_test_931,landing_31.jpg,An airplane lands on a runway.,runway,destination,swapped,0,0.98,swapped
+6,105,actions_test_938,landing_73.jpg,An airplane lands on a runway.,airplane,agent,ok,0.98,0.01,ok
+6,105,actions_test_938,landing_73.jpg,An airplane lands on a runway.,runway,destination,swapped,0.01,0.96,swapped
+6,106,actions_test_944,apprehending_195.jpg,A traffic cop apprehends a man.,traffic cop,agent,ok,0.96,0.13,ok
+6,106,actions_test_944,apprehending_195.jpg,A traffic cop apprehends a man.,man,victim,swapped,0.14,0.98,swapped
+6,107,actions_test_946,working_154.jpg,A woman works in sculpture.,woman,agent,ok,0.99,0.04,ok
+6,107,actions_test_946,working_154.jpg,A woman works in sculpture.,sculpture,focus,swapped,0.04,0.98,swapped
+6,108,actions_test_956,towing_52.jpg,A truck tows a trailer.,truck,agent,swapped,0.08,0.98,swapped
+6,108,actions_test_956,towing_52.jpg,A truck tows a trailer.,trailer,item,ok,0.98,0.08,ok
+6,109,actions_test_957,towing_159.jpg,A truck tows a trailer.,truck,agent,swapped,0.1,0.98,swapped
+6,109,actions_test_957,towing_159.jpg,A truck tows a trailer.,trailer,item,ok,0.98,0.11,ok
+6,110,actions_test_970,towing_60.jpg,A truck tows a tractor.,truck,agent,swapped,0.1,0.54,swapped
+6,110,actions_test_970,towing_60.jpg,A truck tows a tractor.,tractor,item,ok,0.96,0.03,ok
+6,111,actions_test_974,pouncing_185.jpg,A cheetah pounces prey.,cheetah,agent,ok,0.96,0.4,ok
+6,111,actions_test_974,pouncing_185.jpg,A cheetah pounces prey.,prey,destination,swapped,0.4,0.96,other
+6,112,actions_test_982,hunting_34.jpg,A leopard hunts a crocodile.,leopard,agent,swapped,0.49,0.89,swapped
+6,112,actions_test_982,hunting_34.jpg,A leopard hunts a crocodile.,crocodile,hunted,ok,0.89,0.49,ok
+6,113,actions_test_986,subduing_150.jpg,A policeman subdues a man.,policeman,agent,ok,0.63,0.06,ok
+6,113,actions_test_986,subduing_150.jpg,A policeman subdues a man.,man,target,swapped,0.06,0.63,swapped
+6,114,actions_test_1009,frisking_154.jpg,An agent frisks a man.,agent,agent,swapped,0.25,0.99,other
+6,114,actions_test_1009,frisking_154.jpg,An agent frisks a man.,man,victim,ok,0.99,0.25,other
+6,115,actions_test_1013,frisking_162.jpg,A police matron frisks the man.,police,agent,swapped,0.42,0.97,swapped
+6,115,actions_test_1013,frisking_162.jpg,A police matron frisks the man.,man,victim,ok,0.99,0.43,ok
+6,116,actions_test_1023,spitting_42.jpg,A snake spits venom.,snake,agent,ok,0.99,0.01,ok
+6,116,actions_test_1023,spitting_42.jpg,A snake spits venom.,venom,item,swapped,0.01,0.99,swapped
