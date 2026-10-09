@@ -3,10 +3,10 @@
  "annotations": {
   "actions_test_192::driver": {
    "box": [
-    92,
-    83,
-    535,
-    360
+    340,
+    150,
+    450,
+    200
    ],
    "image": "fording_250.jpg",
    "phrase": "the one who is fording (the agent)",
@@ -58,10 +58,10 @@
   },
   "actions_test_718::jump rope": {
    "box": [
-    248,
-    138,
-    709,
-    458
+    380,
+    238,
+    609,
+    358
    ],
    "image": "skipping_178.jpg",
    "phrase": "the entity being skipped over",
@@ -81,7 +81,7 @@
   "actions_test_385::man": {
    "box": [
     249,
-    66,
+    55,
     566,
     467
    ],
@@ -102,8 +102,8 @@
   },
   "actions_test_762::bucket": {
    "box": [
-    153,
-    158,
+    183,
+    188,
     266,
     279
    ],
@@ -124,9 +124,9 @@
   },
   "actions_test_665::man": {
    "box": [
-    141,
-    3,
-    438,
+    410,
+    80,
+    638,
     491
    ],
    "image": "tripping_61.jpg",
@@ -179,10 +179,10 @@
   },
   "actions_test_291::woman": {
    "box": [
-    31,
+    88,
     163,
     1045,
-    499
+    420
    ],
    "image": "floating_74.jpg",
    "phrase": "the one who is floating (the agent)",
@@ -194,6 +194,17 @@
     18,
     453,
     767
+   ],
+   "image": "reassuring_119.jpg",
+   "phrase": "the one who is reassuring (the agent)",
+   "t": 1791533256721
+  },
+  "actions_test_230::man": {
+   "box": [
+    45,
+    40,
+    446,
+    759
    ],
    "image": "offering_207.jpg",
    "phrase": "the one who is offering (the agent)",
@@ -213,8 +224,8 @@
   "actions_test_130::bicycle": {
    "box": [
     118,
-    92,
-    469,
+    380,
+    369,
     756
    ],
    "image": "pedaling_46.jpg",
