@@ -234,9 +234,9 @@
   },
   "actions_test_10::teacher": {
    "box": [
-    248,
-    1,
-    725,
+    222,
+    45,
+    640,
     507
    ],
    "image": "teaching_68.jpg",
@@ -256,8 +256,8 @@
   },
   "actions_test_1032::baby": {
    "box": [
-    202,
-    99,
+    259,
+    110,
     497,
     752
    ],
@@ -279,8 +279,8 @@
   "actions_test_23::athlete": {
    "box": [
     105,
-    80,
-    426,
+    90,
+    406,
     439
    ],
    "image": "punting_124.jpg",
@@ -290,8 +290,8 @@
   "actions_test_1037::trailer truck": {
    "box": [
     0,
-    53,
-    416,
+    0,
+    716,
     505
    ],
    "image": "driving_253.jpg",
@@ -300,10 +300,10 @@
   },
   "actions_test_238::flower": {
    "box": [
-    374,
-    117,
-    634,
-    351
+    354,
+    55,
+    534,
+    180
    ],
    "image": "clinging_185.jpg",
    "phrase": "the entity the AGENT is clinging to",
@@ -311,10 +311,10 @@
   },
   "actions_test_266::mother": {
    "box": [
-    211,
-    90,
-    492,
-    371
+    0,
+    0,
+    280,
+    410
    ],
    "image": "nuzzling_4.jpg",
    "phrase": "the one who is nuzzling (the agent)",
@@ -322,8 +322,8 @@
   },
   "actions_test_913::leopard": {
    "box": [
-    54,
-    68,
+    90,
+    100,
     637,
     365
    ],
@@ -344,10 +344,10 @@
   },
   "actions_test_371::man": {
    "box": [
-    51,
-    5,
-    779,
-    412
+    31,
+    10,
+    788,
+    399
    ],
    "image": "reassuring_32.jpg",
    "phrase": "the one who is reassuring (the agent)",
@@ -366,9 +366,9 @@
   },
   "actions_test_1038::turkey": {
    "box": [
-    70,
-    92,
-    671,
+    100,
+    101,
+    601,
     469
    ],
    "image": "cooking_66.jpg",
@@ -399,10 +399,10 @@
   },
   "actions_test_27::person": {
    "box": [
-    101,
+    131,
     225,
-    623,
-    383
+    226,
+    310
    ],
    "image": "boating_55.jpg",
    "phrase": "the group of entities doing the boating",
@@ -412,7 +412,7 @@
    "box": [
     121,
     306,
-    388,
+    488,
     476
    ],
    "image": "rowing_37.jpg",
@@ -420,7 +420,12 @@
    "t": 1791554319404
   },
   "actions_test_718::people": {
-   "box": null,
+   "box": [
+    420,
+    120,
+    571,
+    383
+   ],
    "image": "skipping_178.jpg",
    "phrase": "the one who is skipping (the agent)",
    "t": 1791554342480
@@ -429,8 +434,8 @@
    "box": [
     279,
     135,
-    404,
-    350
+    584,
+    390
    ],
    "image": "training_104.jpg",
    "phrase": "the one who is training (the agent)",
@@ -449,10 +454,10 @@
   },
   "actions_test_245::wire": {
    "box": [
-    459,
-    203,
-    550,
-    309
+    359,
+    223,
+    450,
+    329
    ],
    "image": "unplugging_6.jpg",
    "phrase": "the object being unplugged",
@@ -495,7 +500,7 @@
    "box": [
     48,
     28,
-    673,
+    623,
     505
    ],
    "image": "shopping_215.jpg",
@@ -516,7 +521,7 @@
   "actions_test_33::boat": {
    "box": [
     63,
-    112,
+    122,
     588,
     501
    ],
@@ -526,10 +531,10 @@
   },
   "actions_test_810::woman": {
    "box": [
-    329,
-    114,
+    0,
+    0,
     675,
-    383
+    483
    ],
    "image": "milking_226.jpg",
    "phrase": "the one who is milking (the agent)",
@@ -547,7 +552,12 @@
    "t": 1791554471764
   },
   "actions_test_611::ship": {
-   "box": null,
+   "box": [
+    450,
+    0,
+    720,
+    515
+   ],
    "image": "boarding_52.jpg",
    "phrase": "the vehicle which the agent boards",
    "t": 1791554477756
